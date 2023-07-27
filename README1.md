@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-07-27 13:56:06
+# 创建时间：2023-07-27 15:34:55
 # 使用模版：V2RaySE 默认模版
-# 节点数量：12
+# 节点数量：10
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -26,14 +26,12 @@ proxies:
   - {"name":"HYJ-EC2","type":"vless","server":"huangyijiang.top","port":443,"uuid":"1154be82-8a04-4229-8ccf-d6f8316c9be9","tls":true,"servername":"huangyijiang.top","network":"ws","ws-opts":{"path":"/ll","headers":{"host":"huangyijiang.top"}}}
   - {"name":"0725.hyj6297.link","type":"vless","server":"0725.hyj6297.link","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
   - {"name":"45.64.23.3","type":"vless","server":"45.64.23.3","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
-  - {"name":"54.169.202.215","type":"vless","server":"54.169.202.215","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
-  - {"name":"198.41.209.41","type":"vless","server":"198.41.209.41","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
-  - {"name":"162.159.247.130","type":"vless","server":"162.159.247.130","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
-  - {"name":"172.67.215.131","type":"vless","server":"172.67.215.131","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
   - {"name":"172.64.93.129","type":"vless","server":"172.64.93.129","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
-  - {"name":"172.67.169.169","type":"vless","server":"172.67.169.169","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
-  - {"name":"172.64.91.35","type":"vless","server":"172.64.91.35","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
-  - {"name":"172.67.87.77","type":"vless","server":"172.67.87.77","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
+  - {"name":"172.64.172.51","type":"vless","server":"172.64.172.51","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
+  - {"name":"172.67.245.57","type":"vless","server":"172.67.245.57","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
+  - {"name":"198.41.211.119","type":"vless","server":"198.41.211.119","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
+  - {"name":"162.159.252.124","type":"vless","server":"162.159.252.124","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
+  - {"name":"198.41.215.127","type":"vless","server":"198.41.215.127","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -44,14 +42,12 @@ proxy-groups:
       - HYJ-EC2
       - 0725.hyj6297.link
       - 45.64.23.3
-      - 54.169.202.215
-      - 198.41.209.41
-      - 162.159.247.130
-      - 172.67.215.131
       - 172.64.93.129
-      - 172.67.169.169
-      - 172.64.91.35
-      - 172.67.87.77
+      - 172.64.172.51
+      - 172.67.245.57
+      - 198.41.211.119
+      - 162.159.252.124
+      - 198.41.215.127
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -62,14 +58,12 @@ proxy-groups:
       - HYJ-EC2
       - 0725.hyj6297.link
       - 45.64.23.3
-      - 54.169.202.215
-      - 198.41.209.41
-      - 162.159.247.130
-      - 172.67.215.131
       - 172.64.93.129
-      - 172.67.169.169
-      - 172.64.91.35
-      - 172.67.87.77
+      - 172.64.172.51
+      - 172.67.245.57
+      - 198.41.211.119
+      - 162.159.252.124
+      - 198.41.215.127
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -80,14 +74,12 @@ proxy-groups:
       - HYJ-EC2
       - 0725.hyj6297.link
       - 45.64.23.3
-      - 54.169.202.215
-      - 198.41.209.41
-      - 162.159.247.130
-      - 172.67.215.131
       - 172.64.93.129
-      - 172.67.169.169
-      - 172.64.91.35
-      - 172.67.87.77
+      - 172.64.172.51
+      - 172.67.245.57
+      - 198.41.211.119
+      - 162.159.252.124
+      - 198.41.215.127
   - name: 📲 电报信息
     type: select
     proxies:
@@ -97,14 +89,12 @@ proxy-groups:
       - HYJ-EC2
       - 0725.hyj6297.link
       - 45.64.23.3
-      - 54.169.202.215
-      - 198.41.209.41
-      - 162.159.247.130
-      - 172.67.215.131
       - 172.64.93.129
-      - 172.67.169.169
-      - 172.64.91.35
-      - 172.67.87.77
+      - 172.64.172.51
+      - 172.67.245.57
+      - 198.41.211.119
+      - 162.159.252.124
+      - 198.41.215.127
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -114,14 +104,12 @@ proxy-groups:
       - HYJ-EC2
       - 0725.hyj6297.link
       - 45.64.23.3
-      - 54.169.202.215
-      - 198.41.209.41
-      - 162.159.247.130
-      - 172.67.215.131
       - 172.64.93.129
-      - 172.67.169.169
-      - 172.64.91.35
-      - 172.67.87.77
+      - 172.64.172.51
+      - 172.67.245.57
+      - 198.41.211.119
+      - 162.159.252.124
+      - 198.41.215.127
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -131,14 +119,12 @@ proxy-groups:
       - HYJ-EC2
       - 0725.hyj6297.link
       - 45.64.23.3
-      - 54.169.202.215
-      - 198.41.209.41
-      - 162.159.247.130
-      - 172.67.215.131
       - 172.64.93.129
-      - 172.67.169.169
-      - 172.64.91.35
-      - 172.67.87.77
+      - 172.64.172.51
+      - 172.67.245.57
+      - 198.41.211.119
+      - 162.159.252.124
+      - 198.41.215.127
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -165,14 +151,12 @@ proxy-groups:
       - HYJ-EC2
       - 0725.hyj6297.link
       - 45.64.23.3
-      - 54.169.202.215
-      - 198.41.209.41
-      - 162.159.247.130
-      - 172.67.215.131
       - 172.64.93.129
-      - 172.67.169.169
-      - 172.64.91.35
-      - 172.67.87.77
+      - 172.64.172.51
+      - 172.67.245.57
+      - 198.41.211.119
+      - 162.159.252.124
+      - 198.41.215.127
 
 rules:
 # 本地/局域网地址
