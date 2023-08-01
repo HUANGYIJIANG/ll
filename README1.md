@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-07-28 09:50:17
+# 创建时间：2023-08-01 17:51:20
 # 使用模版：V2RaySE 默认模版
-# 节点数量：15
+# 节点数量：18
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -37,6 +37,9 @@ proxies:
   - {"name":"172.64.172.51","type":"vless","server":"172.64.172.51","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
   - {"name":"162.159.252.124","type":"vless","server":"162.159.252.124","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
   - {"name":"0725.hyj6297.link","type":"vless","server":"0725.hyj6297.link","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
+  - {"name":"162.159.137.42","type":"vless","server":"162.159.137.42","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
+  - {"name":"172.67.78.222","type":"vless","server":"172.67.78.222","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
+  - {"name":"172.67.193.24","type":"vless","server":"172.67.193.24","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -58,6 +61,9 @@ proxy-groups:
       - 172.64.172.51
       - 162.159.252.124
       - 0725.hyj6297.link
+      - 162.159.137.42
+      - 172.67.78.222
+      - 172.67.193.24
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -79,6 +85,9 @@ proxy-groups:
       - 172.64.172.51
       - 162.159.252.124
       - 0725.hyj6297.link
+      - 162.159.137.42
+      - 172.67.78.222
+      - 172.67.193.24
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -100,6 +109,9 @@ proxy-groups:
       - 172.64.172.51
       - 162.159.252.124
       - 0725.hyj6297.link
+      - 162.159.137.42
+      - 172.67.78.222
+      - 172.67.193.24
   - name: 📲 电报信息
     type: select
     proxies:
@@ -120,6 +132,9 @@ proxy-groups:
       - 172.64.172.51
       - 162.159.252.124
       - 0725.hyj6297.link
+      - 162.159.137.42
+      - 172.67.78.222
+      - 172.67.193.24
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -140,6 +155,9 @@ proxy-groups:
       - 172.64.172.51
       - 162.159.252.124
       - 0725.hyj6297.link
+      - 162.159.137.42
+      - 172.67.78.222
+      - 172.67.193.24
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -160,6 +178,9 @@ proxy-groups:
       - 172.64.172.51
       - 162.159.252.124
       - 0725.hyj6297.link
+      - 162.159.137.42
+      - 172.67.78.222
+      - 172.67.193.24
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -197,6 +218,9 @@ proxy-groups:
       - 172.64.172.51
       - 162.159.252.124
       - 0725.hyj6297.link
+      - 162.159.137.42
+      - 172.67.78.222
+      - 172.67.193.24
 
 rules:
 # 本地/局域网地址
