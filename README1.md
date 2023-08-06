@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-08-05 21:07:38
+# 创建时间：2023-08-06 10:08:18
 # 使用模版：V2RaySE 默认模版
-# 节点数量：20
+# 节点数量：18
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -23,8 +23,6 @@ dns:
 
 proxies:
   - {"name":"HYJ-singapore","type":"vless","server":"52.74.168.183","port":443,"uuid":"0ca1a4cc-49a7-46b0-c7ef-f892bc24f397","tls":false,"network":"tcp"}
-  - {"name":"hyj-vmess+ws","type":"vmess","server":"52.74.168.183","port":30461,"cipher":"auto","uuid":"6b80181e-22de-41bf-e97c-e3ea8bf3fc6a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6b80181e"}}
-  - {"name":"hyj-vless+vision","type":"vless","server":"52.74.168.183","port":38699,"uuid":"2a36b7c1-5864-45de-bfd5-5fc6c6b54324","tls":true,"servername":"52-74-168-183.nip.io","network":"tcp"}
   - {"name":"HYJ-EC2","type":"vless","server":"18.163.194.144","port":443,"uuid":"1154be82-8a04-4229-8ccf-d6f8316c9be9","tls":true,"servername":"huangyijiang.top","network":"ws","ws-opts":{"path":"/ll","headers":{"host":"huangyijiang.top"}}}
   - {"name":"45.64.23.3","type":"vless","server":"45.64.23.3","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
   - {"name":"198.41.215.127","type":"vless","server":"198.41.215.127","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
@@ -49,8 +47,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - HYJ-singapore
-      - hyj-vmess+ws
-      - hyj-vless+vision
       - HYJ-EC2
       - 45.64.23.3
       - 198.41.215.127
@@ -75,8 +71,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - HYJ-singapore
-      - hyj-vmess+ws
-      - hyj-vless+vision
       - HYJ-EC2
       - 45.64.23.3
       - 198.41.215.127
@@ -101,8 +95,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HYJ-singapore
-      - hyj-vmess+ws
-      - hyj-vless+vision
       - HYJ-EC2
       - 45.64.23.3
       - 198.41.215.127
@@ -126,8 +118,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - HYJ-singapore
-      - hyj-vmess+ws
-      - hyj-vless+vision
       - HYJ-EC2
       - 45.64.23.3
       - 198.41.215.127
@@ -151,8 +141,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - HYJ-singapore
-      - hyj-vmess+ws
-      - hyj-vless+vision
       - HYJ-EC2
       - 45.64.23.3
       - 198.41.215.127
@@ -176,8 +164,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - HYJ-singapore
-      - hyj-vmess+ws
-      - hyj-vless+vision
       - HYJ-EC2
       - 45.64.23.3
       - 198.41.215.127
@@ -218,8 +204,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - HYJ-singapore
-      - hyj-vmess+ws
-      - hyj-vless+vision
       - HYJ-EC2
       - 45.64.23.3
       - 198.41.215.127
