@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-08-08 16:19:33
+# 创建时间：2023-08-09 16:10:28
 # 使用模版：V2RaySE 默认模版
 # 节点数量：15
 ####################################
@@ -22,7 +22,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"HYJ-vless","type":"vless","server":"18.140.224.7","port":443,"uuid":"2247ef45-88ba-4ee4-b718-51ac2b5db979","tls":false,"network":"tcp"}
+  - {"name":"HYJ-vless","type":"vless","server":"18.143.251.99","port":443,"uuid":"15d3c347-8caa-4b72-bbd9-72bf8bbfb80d","tls":false,"network":"tcp"}
   - {"name":"HYJ-singapore","type":"vless","server":"52.74.168.183","port":443,"uuid":"0ca1a4cc-49a7-46b0-c7ef-f892bc24f397","tls":false,"network":"tcp"}
   - {"name":"198.41.215.127","type":"vless","server":"198.41.215.127","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
   - {"name":"198.41.211.119","type":"vless","server":"198.41.211.119","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
