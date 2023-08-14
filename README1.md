@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-08-14 17:22:51
+# 创建时间：2023-08-14 17:39:42
 # 使用模版：V2RaySE 默认模版
-# 节点数量：34
+# 节点数量：35
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -22,6 +22,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
+  - {"name":"HYJ","type":"vless","server":"18.143.251.99","port":39449,"uuid":"c0813a33-ef93-4e18-ea40-d6d19ce3aefe","tls":false,"network":"tcp"}
   - {"name":"vmess+ws_1","type":"vmess","server":"18.143.251.99","port":80,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
   - {"name":"vmess+ws+tls+原始","type":"vmess","server":"v.huangyijiang.top","port":443,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v.huangyijiang.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
   - {"name":"HYJ-singapore","type":"vless","server":"52.74.168.183","port":443,"uuid":"0ca1a4cc-49a7-46b0-c7ef-f892bc24f397","tls":false,"network":"tcp"}
@@ -62,6 +63,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - HYJ
       - vmess+ws_1
       - vmess+ws+tls+原始
       - HYJ-singapore
@@ -102,6 +104,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - HYJ
       - vmess+ws_1
       - vmess+ws+tls+原始
       - HYJ-singapore
@@ -142,6 +145,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - HYJ
       - vmess+ws_1
       - vmess+ws+tls+原始
       - HYJ-singapore
@@ -181,6 +185,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - HYJ
       - vmess+ws_1
       - vmess+ws+tls+原始
       - HYJ-singapore
@@ -220,6 +225,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - HYJ
       - vmess+ws_1
       - vmess+ws+tls+原始
       - HYJ-singapore
@@ -259,6 +265,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - HYJ
       - vmess+ws_1
       - vmess+ws+tls+原始
       - HYJ-singapore
@@ -315,6 +322,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - HYJ
       - vmess+ws_1
       - vmess+ws+tls+原始
       - HYJ-singapore
