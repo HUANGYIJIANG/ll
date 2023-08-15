@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-08-14 17:39:42
+# 创建时间：2023-08-15 15:44:06
 # 使用模版：V2RaySE 默认模版
-# 节点数量：35
+# 节点数量：24
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -23,8 +23,7 @@ dns:
 
 proxies:
   - {"name":"HYJ","type":"vless","server":"18.143.251.99","port":39449,"uuid":"c0813a33-ef93-4e18-ea40-d6d19ce3aefe","tls":false,"network":"tcp"}
-  - {"name":"vmess+ws_1","type":"vmess","server":"18.143.251.99","port":80,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"vmess+ws+tls+原始","type":"vmess","server":"v.huangyijiang.top","port":443,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v.huangyijiang.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
+  - {"name":"vmess+ws","type":"vmess","server":"18.143.251.99","port":81,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
   - {"name":"HYJ-singapore","type":"vless","server":"52.74.168.183","port":443,"uuid":"0ca1a4cc-49a7-46b0-c7ef-f892bc24f397","tls":false,"network":"tcp"}
   - {"name":"198.41.215.127","type":"vless","server":"198.41.215.127","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
   - {"name":"198.41.211.119","type":"vless","server":"198.41.211.119","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
@@ -41,22 +40,12 @@ proxies:
   - {"name":"172.67.76.89","type":"vless","server":"172.67.76.89","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
   - {"name":"162.159.130.87","type":"vless","server":"162.159.130.87","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
   - {"name":"172.67.218.249","type":"vless","server":"172.67.218.249","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
-  - {"name":"172.67.181.209","type":"vless","server":"172.67.181.209","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
-  - {"name":"vmess+ws+原始","type":"vmess","server":"v.huangyijiang.top","port":80,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"vmess+ws_2","type":"vmess","server":"172.67.196.226","port":80,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
-  - {"name":"vmess+ws_3","type":"vmess","server":"158.178.247.50","port":80,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
-  - {"name":"vmess+ws_4","type":"vmess","server":"13.229.133.238","port":80,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
-  - {"name":"vmess+ws_5","type":"vmess","server":"138.2.104.2","port":80,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
-  - {"name":"vmess+ws_6","type":"vmess","server":"157.245.50.117","port":80,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
-  - {"name":"vmess+ws+tls_1","type":"vmess","server":"172.67.247.94","port":443,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v.huangyijiang.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
-  - {"name":"vmess+ws+tls_2","type":"vmess","server":"103.184.45.40","port":443,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
-  - {"name":"vmess+ws+tls_3","type":"vmess","server":"103.184.44.7","port":443,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
-  - {"name":"vmess+ws+tls_4","type":"vmess","server":"103.184.44.39","port":443,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
-  - {"name":"vmess+ws+tls_5","type":"vmess","server":"103.184.45.88","port":443,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v.huangyijiang.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
-  - {"name":"vmess+ws+tls_6","type":"vmess","server":"103.184.45.90","port":443,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v.huangyijiang.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
-  - {"name":"172.64.172.34","type":"vmess","server":"172.64.172.34","port":443,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v.huangyijiang.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
-  - {"name":"172.67.8.2","type":"vmess","server":"172.67.8.2","port":443,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v.huangyijiang.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
-  - {"name":"172.67.185.248","type":"vmess","server":"172.67.185.248","port":443,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"v.huangyijiang.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"v.huangyijiang.top"}}}
+  - {"name":"172.67.71.32","type":"vless","server":"172.67.71.32","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
+  - {"name":"172.67.76.194","type":"vless","server":"172.67.76.194","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
+  - {"name":"172.64.204.163","type":"vless","server":"172.64.204.163","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
+  - {"name":"104.17.90.20","type":"vless","server":"104.17.90.20","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
+  - {"name":"172.67.181.169","type":"vless","server":"172.67.181.169","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
+  - {"name":"172.64.69.166","type":"vless","server":"172.64.69.166","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -64,8 +53,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - HYJ
-      - vmess+ws_1
-      - vmess+ws+tls+原始
+      - vmess+ws
       - HYJ-singapore
       - 198.41.215.127
       - 198.41.211.119
@@ -82,22 +70,12 @@ proxy-groups:
       - 172.67.76.89
       - 162.159.130.87
       - 172.67.218.249
-      - 172.67.181.209
-      - vmess+ws+原始
-      - vmess+ws_2
-      - vmess+ws_3
-      - vmess+ws_4
-      - vmess+ws_5
-      - vmess+ws_6
-      - vmess+ws+tls_1
-      - vmess+ws+tls_2
-      - vmess+ws+tls_3
-      - vmess+ws+tls_4
-      - vmess+ws+tls_5
-      - vmess+ws+tls_6
-      - 172.64.172.34
-      - 172.67.8.2
-      - 172.67.185.248
+      - 172.67.71.32
+      - 172.67.76.194
+      - 172.64.204.163
+      - 104.17.90.20
+      - 172.67.181.169
+      - 172.64.69.166
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -105,8 +83,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - HYJ
-      - vmess+ws_1
-      - vmess+ws+tls+原始
+      - vmess+ws
       - HYJ-singapore
       - 198.41.215.127
       - 198.41.211.119
@@ -123,22 +100,12 @@ proxy-groups:
       - 172.67.76.89
       - 162.159.130.87
       - 172.67.218.249
-      - 172.67.181.209
-      - vmess+ws+原始
-      - vmess+ws_2
-      - vmess+ws_3
-      - vmess+ws_4
-      - vmess+ws_5
-      - vmess+ws_6
-      - vmess+ws+tls_1
-      - vmess+ws+tls_2
-      - vmess+ws+tls_3
-      - vmess+ws+tls_4
-      - vmess+ws+tls_5
-      - vmess+ws+tls_6
-      - 172.64.172.34
-      - 172.67.8.2
-      - 172.67.185.248
+      - 172.67.71.32
+      - 172.67.76.194
+      - 172.64.204.163
+      - 104.17.90.20
+      - 172.67.181.169
+      - 172.64.69.166
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -146,8 +113,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HYJ
-      - vmess+ws_1
-      - vmess+ws+tls+原始
+      - vmess+ws
       - HYJ-singapore
       - 198.41.215.127
       - 198.41.211.119
@@ -164,30 +130,19 @@ proxy-groups:
       - 172.67.76.89
       - 162.159.130.87
       - 172.67.218.249
-      - 172.67.181.209
-      - vmess+ws+原始
-      - vmess+ws_2
-      - vmess+ws_3
-      - vmess+ws_4
-      - vmess+ws_5
-      - vmess+ws_6
-      - vmess+ws+tls_1
-      - vmess+ws+tls_2
-      - vmess+ws+tls_3
-      - vmess+ws+tls_4
-      - vmess+ws+tls_5
-      - vmess+ws+tls_6
-      - 172.64.172.34
-      - 172.67.8.2
-      - 172.67.185.248
+      - 172.67.71.32
+      - 172.67.76.194
+      - 172.64.204.163
+      - 104.17.90.20
+      - 172.67.181.169
+      - 172.64.69.166
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - HYJ
-      - vmess+ws_1
-      - vmess+ws+tls+原始
+      - vmess+ws
       - HYJ-singapore
       - 198.41.215.127
       - 198.41.211.119
@@ -204,30 +159,19 @@ proxy-groups:
       - 172.67.76.89
       - 162.159.130.87
       - 172.67.218.249
-      - 172.67.181.209
-      - vmess+ws+原始
-      - vmess+ws_2
-      - vmess+ws_3
-      - vmess+ws_4
-      - vmess+ws_5
-      - vmess+ws_6
-      - vmess+ws+tls_1
-      - vmess+ws+tls_2
-      - vmess+ws+tls_3
-      - vmess+ws+tls_4
-      - vmess+ws+tls_5
-      - vmess+ws+tls_6
-      - 172.64.172.34
-      - 172.67.8.2
-      - 172.67.185.248
+      - 172.67.71.32
+      - 172.67.76.194
+      - 172.64.204.163
+      - 104.17.90.20
+      - 172.67.181.169
+      - 172.64.69.166
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - HYJ
-      - vmess+ws_1
-      - vmess+ws+tls+原始
+      - vmess+ws
       - HYJ-singapore
       - 198.41.215.127
       - 198.41.211.119
@@ -244,30 +188,19 @@ proxy-groups:
       - 172.67.76.89
       - 162.159.130.87
       - 172.67.218.249
-      - 172.67.181.209
-      - vmess+ws+原始
-      - vmess+ws_2
-      - vmess+ws_3
-      - vmess+ws_4
-      - vmess+ws_5
-      - vmess+ws_6
-      - vmess+ws+tls_1
-      - vmess+ws+tls_2
-      - vmess+ws+tls_3
-      - vmess+ws+tls_4
-      - vmess+ws+tls_5
-      - vmess+ws+tls_6
-      - 172.64.172.34
-      - 172.67.8.2
-      - 172.67.185.248
+      - 172.67.71.32
+      - 172.67.76.194
+      - 172.64.204.163
+      - 104.17.90.20
+      - 172.67.181.169
+      - 172.64.69.166
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - HYJ
-      - vmess+ws_1
-      - vmess+ws+tls+原始
+      - vmess+ws
       - HYJ-singapore
       - 198.41.215.127
       - 198.41.211.119
@@ -284,22 +217,12 @@ proxy-groups:
       - 172.67.76.89
       - 162.159.130.87
       - 172.67.218.249
-      - 172.67.181.209
-      - vmess+ws+原始
-      - vmess+ws_2
-      - vmess+ws_3
-      - vmess+ws_4
-      - vmess+ws_5
-      - vmess+ws_6
-      - vmess+ws+tls_1
-      - vmess+ws+tls_2
-      - vmess+ws+tls_3
-      - vmess+ws+tls_4
-      - vmess+ws+tls_5
-      - vmess+ws+tls_6
-      - 172.64.172.34
-      - 172.67.8.2
-      - 172.67.185.248
+      - 172.67.71.32
+      - 172.67.76.194
+      - 172.64.204.163
+      - 104.17.90.20
+      - 172.67.181.169
+      - 172.64.69.166
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -323,8 +246,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - HYJ
-      - vmess+ws_1
-      - vmess+ws+tls+原始
+      - vmess+ws
       - HYJ-singapore
       - 198.41.215.127
       - 198.41.211.119
@@ -341,22 +263,12 @@ proxy-groups:
       - 172.67.76.89
       - 162.159.130.87
       - 172.67.218.249
-      - 172.67.181.209
-      - vmess+ws+原始
-      - vmess+ws_2
-      - vmess+ws_3
-      - vmess+ws_4
-      - vmess+ws_5
-      - vmess+ws_6
-      - vmess+ws+tls_1
-      - vmess+ws+tls_2
-      - vmess+ws+tls_3
-      - vmess+ws+tls_4
-      - vmess+ws+tls_5
-      - vmess+ws+tls_6
-      - 172.64.172.34
-      - 172.67.8.2
-      - 172.67.185.248
+      - 172.67.71.32
+      - 172.67.76.194
+      - 172.64.204.163
+      - 104.17.90.20
+      - 172.67.181.169
+      - 172.64.69.166
 
 rules:
 # 本地/局域网地址
