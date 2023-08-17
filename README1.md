@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-08-15 15:44:06
+# 创建时间：2023-08-17 09:53:18
 # 使用模版：V2RaySE 默认模版
-# 节点数量：24
+# 节点数量：25
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -22,8 +22,9 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"HYJ","type":"vless","server":"18.143.251.99","port":39449,"uuid":"c0813a33-ef93-4e18-ea40-d6d19ce3aefe","tls":false,"network":"tcp"}
-  - {"name":"vmess+ws","type":"vmess","server":"18.143.251.99","port":81,"cipher":"auto","uuid":"cafa835c-8d5e-45ef-f5f5-8bc1d60e644e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"HYJ-vless","type":"vless","server":"52.74.156.187","port":443,"uuid":"9d12e9a5-c7ce-48ae-9465-b68085923ee3","tls":false,"network":"tcp"}
+  - {"name":"HYJ-vless+ws","type":"vless","server":"52.74.156.187","port":1443,"uuid":"f0051492-fd8d-4cb6-c198-3cf69c5816a9","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"HYJ-vmess+ws","type":"vmess","server":"52.74.156.187","port":2443,"cipher":"auto","uuid":"28c78fee-fc93-4c8c-af5f-6fb2dcc86f25","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
   - {"name":"HYJ-singapore","type":"vless","server":"52.74.168.183","port":443,"uuid":"0ca1a4cc-49a7-46b0-c7ef-f892bc24f397","tls":false,"network":"tcp"}
   - {"name":"198.41.215.127","type":"vless","server":"198.41.215.127","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
   - {"name":"198.41.211.119","type":"vless","server":"198.41.211.119","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
@@ -52,8 +53,9 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - HYJ
-      - vmess+ws
+      - HYJ-vless
+      - HYJ-vless+ws
+      - HYJ-vmess+ws
       - HYJ-singapore
       - 198.41.215.127
       - 198.41.211.119
@@ -82,8 +84,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - HYJ
-      - vmess+ws
+      - HYJ-vless
+      - HYJ-vless+ws
+      - HYJ-vmess+ws
       - HYJ-singapore
       - 198.41.215.127
       - 198.41.211.119
@@ -112,8 +115,9 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HYJ
-      - vmess+ws
+      - HYJ-vless
+      - HYJ-vless+ws
+      - HYJ-vmess+ws
       - HYJ-singapore
       - 198.41.215.127
       - 198.41.211.119
@@ -141,8 +145,9 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - HYJ
-      - vmess+ws
+      - HYJ-vless
+      - HYJ-vless+ws
+      - HYJ-vmess+ws
       - HYJ-singapore
       - 198.41.215.127
       - 198.41.211.119
@@ -170,8 +175,9 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - HYJ
-      - vmess+ws
+      - HYJ-vless
+      - HYJ-vless+ws
+      - HYJ-vmess+ws
       - HYJ-singapore
       - 198.41.215.127
       - 198.41.211.119
@@ -199,8 +205,9 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - HYJ
-      - vmess+ws
+      - HYJ-vless
+      - HYJ-vless+ws
+      - HYJ-vmess+ws
       - HYJ-singapore
       - 198.41.215.127
       - 198.41.211.119
@@ -245,8 +252,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HYJ
-      - vmess+ws
+      - HYJ-vless
+      - HYJ-vless+ws
+      - HYJ-vmess+ws
       - HYJ-singapore
       - 198.41.215.127
       - 198.41.211.119
