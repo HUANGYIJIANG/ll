@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-08-29 13:16:08
+# 创建时间：2023-08-31 17:15:51
 # 使用模版：V2RaySE 默认模版
-# 节点数量：28
+# 节点数量：45
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -50,6 +50,23 @@ proxies:
   - {"name":"198.41.208.64","type":"vless","server":"198.41.208.64","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
   - {"name":"198.41.211.119","type":"vless","server":"198.41.211.119","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
   - {"name":"198.41.215.127","type":"vless","server":"198.41.215.127","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTPS-443-icook.hk-EDtunnel","type":"vless","server":"icook.hk","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTPS-443-sp.kjkkk.link-EDtunnel","type":"vless","server":"sp.kjkkk.link","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTPS-443-hyj.hyj6297.link-EDtunnel","type":"vless","server":"hyj.hyj6297.link","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTP-80","type":"vless","server":"hyj.hyj6297.workers.dev","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTP-8880-icook.hk-EDtunnel","type":"vless","server":"icook.hk","port":8880,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTP-80-hyj.hyj6297.link-EDtunnel","type":"vless","server":"hyj.hyj6297.link","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTP-80-icook.hk-EDtunnel","type":"vless","server":"icook.hk","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTP-2086-icook.hk-EDtunnel","type":"vless","server":"icook.hk","port":2086,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTPS-443","type":"vless","server":"hyj.hyj6297.workers.dev","port":443,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":true,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTP-80-sp.kjkkk.link-EDtunnel","type":"vless","server":"sp.kjkkk.link","port":80,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTP-2082","type":"vless","server":"hyj.hyj6297.workers.dev","port":2082,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTP-8080","type":"vless","server":"hyj.hyj6297.workers.dev","port":8080,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTP-2052","type":"vless","server":"hyj.hyj6297.workers.dev","port":2052,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTP-2086-sp.kjkkk.link-EDtunnel","type":"vless","server":"sp.kjkkk.link","port":2086,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTP-8080-icook.hk-EDtunnel","type":"vless","server":"icook.hk","port":8080,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTP-8880","type":"vless","server":"hyj.hyj6297.workers.dev","port":8880,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
+  - {"name":"hyj.hyj6297.workers.dev-HTTP-8080-sp.kjkkk.link-EDtunnel","type":"vless","server":"sp.kjkkk.link","port":8080,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","tls":false,"servername":"hyj.hyj6297.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hyj.hyj6297.workers.dev"}},"client-fingerprint":"random"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -84,6 +101,23 @@ proxy-groups:
       - 198.41.208.64
       - 198.41.211.119
       - 198.41.215.127
+      - hyj.hyj6297.workers.dev-HTTPS-443-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443-hyj.hyj6297.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80
+      - hyj.hyj6297.workers.dev-HTTP-8880-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80-hyj.hyj6297.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-2086-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443
+      - hyj.hyj6297.workers.dev-HTTP-80-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-2082
+      - hyj.hyj6297.workers.dev-HTTP-8080
+      - hyj.hyj6297.workers.dev-HTTP-2052
+      - hyj.hyj6297.workers.dev-HTTP-2086-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-8080-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-8880
+      - hyj.hyj6297.workers.dev-HTTP-8080-sp.kjkkk.link-EDtunnel
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -118,6 +152,23 @@ proxy-groups:
       - 198.41.208.64
       - 198.41.211.119
       - 198.41.215.127
+      - hyj.hyj6297.workers.dev-HTTPS-443-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443-hyj.hyj6297.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80
+      - hyj.hyj6297.workers.dev-HTTP-8880-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80-hyj.hyj6297.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-2086-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443
+      - hyj.hyj6297.workers.dev-HTTP-80-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-2082
+      - hyj.hyj6297.workers.dev-HTTP-8080
+      - hyj.hyj6297.workers.dev-HTTP-2052
+      - hyj.hyj6297.workers.dev-HTTP-2086-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-8080-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-8880
+      - hyj.hyj6297.workers.dev-HTTP-8080-sp.kjkkk.link-EDtunnel
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -152,6 +203,23 @@ proxy-groups:
       - 198.41.208.64
       - 198.41.211.119
       - 198.41.215.127
+      - hyj.hyj6297.workers.dev-HTTPS-443-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443-hyj.hyj6297.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80
+      - hyj.hyj6297.workers.dev-HTTP-8880-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80-hyj.hyj6297.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-2086-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443
+      - hyj.hyj6297.workers.dev-HTTP-80-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-2082
+      - hyj.hyj6297.workers.dev-HTTP-8080
+      - hyj.hyj6297.workers.dev-HTTP-2052
+      - hyj.hyj6297.workers.dev-HTTP-2086-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-8080-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-8880
+      - hyj.hyj6297.workers.dev-HTTP-8080-sp.kjkkk.link-EDtunnel
   - name: 📲 电报信息
     type: select
     proxies:
@@ -185,6 +253,23 @@ proxy-groups:
       - 198.41.208.64
       - 198.41.211.119
       - 198.41.215.127
+      - hyj.hyj6297.workers.dev-HTTPS-443-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443-hyj.hyj6297.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80
+      - hyj.hyj6297.workers.dev-HTTP-8880-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80-hyj.hyj6297.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-2086-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443
+      - hyj.hyj6297.workers.dev-HTTP-80-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-2082
+      - hyj.hyj6297.workers.dev-HTTP-8080
+      - hyj.hyj6297.workers.dev-HTTP-2052
+      - hyj.hyj6297.workers.dev-HTTP-2086-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-8080-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-8880
+      - hyj.hyj6297.workers.dev-HTTP-8080-sp.kjkkk.link-EDtunnel
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -218,6 +303,23 @@ proxy-groups:
       - 198.41.208.64
       - 198.41.211.119
       - 198.41.215.127
+      - hyj.hyj6297.workers.dev-HTTPS-443-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443-hyj.hyj6297.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80
+      - hyj.hyj6297.workers.dev-HTTP-8880-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80-hyj.hyj6297.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-2086-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443
+      - hyj.hyj6297.workers.dev-HTTP-80-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-2082
+      - hyj.hyj6297.workers.dev-HTTP-8080
+      - hyj.hyj6297.workers.dev-HTTP-2052
+      - hyj.hyj6297.workers.dev-HTTP-2086-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-8080-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-8880
+      - hyj.hyj6297.workers.dev-HTTP-8080-sp.kjkkk.link-EDtunnel
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -251,6 +353,23 @@ proxy-groups:
       - 198.41.208.64
       - 198.41.211.119
       - 198.41.215.127
+      - hyj.hyj6297.workers.dev-HTTPS-443-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443-hyj.hyj6297.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80
+      - hyj.hyj6297.workers.dev-HTTP-8880-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80-hyj.hyj6297.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-2086-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443
+      - hyj.hyj6297.workers.dev-HTTP-80-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-2082
+      - hyj.hyj6297.workers.dev-HTTP-8080
+      - hyj.hyj6297.workers.dev-HTTP-2052
+      - hyj.hyj6297.workers.dev-HTTP-2086-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-8080-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-8880
+      - hyj.hyj6297.workers.dev-HTTP-8080-sp.kjkkk.link-EDtunnel
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -301,6 +420,23 @@ proxy-groups:
       - 198.41.208.64
       - 198.41.211.119
       - 198.41.215.127
+      - hyj.hyj6297.workers.dev-HTTPS-443-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443-hyj.hyj6297.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80
+      - hyj.hyj6297.workers.dev-HTTP-8880-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80-hyj.hyj6297.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-80-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-2086-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTPS-443
+      - hyj.hyj6297.workers.dev-HTTP-80-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-2082
+      - hyj.hyj6297.workers.dev-HTTP-8080
+      - hyj.hyj6297.workers.dev-HTTP-2052
+      - hyj.hyj6297.workers.dev-HTTP-2086-sp.kjkkk.link-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-8080-icook.hk-EDtunnel
+      - hyj.hyj6297.workers.dev-HTTP-8880
+      - hyj.hyj6297.workers.dev-HTTP-8080-sp.kjkkk.link-EDtunnel
 
 rules:
 # 本地/局域网地址
