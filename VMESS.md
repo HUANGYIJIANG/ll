@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-20 10:46:35
+# 创建时间：2023-09-20 11:09:49
 # 使用模版：V2RaySE 默认模版
-# 节点数量：3
+# 节点数量：2
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -86,8 +86,7 @@ dns:
 
 proxies:
   - {"name":"vmess1","type":"vmess","server":"52.76.68.145","port":37752,"cipher":"auto","uuid":"0c08cc58-6f79-47ef-c93d-26843a4d1993","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/0c08cc58"}}
-  - {"name":"vmess2","type":"vmess","server":"52.76.68.145","port":22397,"cipher":"auto","uuid":"c5bfbcda-6016-4bbb-98d5-7e970cadc160","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/123","headers":{"host":"huangyijinag.top"}}}
-  - {"name":"vmess3","type":"vmess","server":"52.76.68.145","port":31535,"cipher":"auto","uuid":"248483b1-b881-4783-8bb0-23986b822f47","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"kcp"}
+  - {"name":"vmess2","type":"vmess","server":"52.76.68.145","port":31535,"cipher":"auto","uuid":"248483b1-b881-4783-8bb0-23986b822f47","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"kcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -96,7 +95,6 @@ proxy-groups:
       - DIRECT
       - vmess1
       - vmess2
-      - vmess3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -105,7 +103,6 @@ proxy-groups:
     proxies:
       - vmess1
       - vmess2
-      - vmess3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -114,7 +111,6 @@ proxy-groups:
       - 🎯 全球直连
       - vmess1
       - vmess2
-      - vmess3
   - name: 📲 电报信息
     type: select
     proxies:
@@ -122,7 +118,6 @@ proxy-groups:
       - 🎯 全球直连
       - vmess1
       - vmess2
-      - vmess3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -130,7 +125,6 @@ proxy-groups:
       - 🚀 节点选择
       - vmess1
       - vmess2
-      - vmess3
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -138,7 +132,6 @@ proxy-groups:
       - 🎯 全球直连
       - vmess1
       - vmess2
-      - vmess3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -163,7 +156,6 @@ proxy-groups:
       - ♻️ 自动选择
       - vmess1
       - vmess2
-      - vmess3
 
 rules:
 # 本地/局域网地址
