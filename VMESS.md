@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-20 13:48:20
+# 创建时间：2023-10-07 13:50:48
 # 使用模版：V2RaySE 默认模版
-# 节点数量：3
+# 节点数量：4
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,60 +85,67 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"vmess1","type":"vmess","server":"52.76.68.145","port":37752,"cipher":"auto","uuid":"0c08cc58-6f79-47ef-c93d-26843a4d1993","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/0c08cc58"}}
-  - {"name":"trojan","type":"trojan","server":"52.76.68.145","port":16854,"udp":true,"password":"GnpnfXriHF","sni":"52.76.68.145","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"vmess2","type":"vmess","server":"52.76.68.145","port":31535,"cipher":"auto","uuid":"248483b1-b881-4783-8bb0-23986b822f47","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"kcp"}
+  - {"name":"HYJ-SS","type":"ss","server":"13.228.3.48","port":11188,"password":"095318Hh52","cipher":"aes-256-gcm"}
+  - {"name":"trojan","type":"trojan","server":"13.228.3.48","port":16854,"udp":true,"password":"GnpnfXriHF","sni":"13.228.3.48","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"vmess+ws","type":"vmess","server":"13.228.3.48","port":37752,"cipher":"auto","uuid":"0c08cc58-6f79-47ef-c93d-26843a4d1993","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/0c08cc58"}}
+  - {"name":"vmess","type":"vmess","server":"13.228.3.48","port":31535,"cipher":"auto","uuid":"248483b1-b881-4783-8bb0-23986b822f47","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"kcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - vmess1
+      - HYJ-SS
       - trojan
-      - vmess2
+      - vmess+ws
+      - vmess
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - vmess1
+      - HYJ-SS
       - trojan
-      - vmess2
+      - vmess+ws
+      - vmess
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - vmess1
+      - HYJ-SS
       - trojan
-      - vmess2
+      - vmess+ws
+      - vmess
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - vmess1
+      - HYJ-SS
       - trojan
-      - vmess2
+      - vmess+ws
+      - vmess
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - vmess1
+      - HYJ-SS
       - trojan
-      - vmess2
+      - vmess+ws
+      - vmess
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - vmess1
+      - HYJ-SS
       - trojan
-      - vmess2
+      - vmess+ws
+      - vmess
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -161,9 +168,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - vmess1
+      - HYJ-SS
       - trojan
-      - vmess2
+      - vmess+ws
+      - vmess
 
 rules:
 # 本地/局域网地址
