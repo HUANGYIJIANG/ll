@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-10-07 13:47:58
+# 创建时间：2023-10-08 09:47:10
 # 使用模版：V2RaySE 默认模版
 # 节点数量：26
 ####################################
@@ -86,12 +86,12 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"HYJ-vless","type":"vless","server":"13.228.3.48","port":31895,"uuid":"1681cad1-cb7c-46a4-c685-594906569bb4","tls":false,"servername":"13.228.3.48","network":"tcp"}
-  - {"name":"vless+vision+reality","type":"vless","server":"13.228.3.48","port":443,"udp":true,"uuid":"253edc65-fb13-46e0-be00-932e40b436cc","tls":true,"servername":"253edc65.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU"},"client-fingerprint":"chrome"}
-  - {"name":"HYJ-SS","type":"ss","server":"13.228.3.48","port":11188,"password":"095318Hh52","cipher":"aes-256-gcm"}
-  - {"name":"trojan","type":"trojan","server":"13.228.3.48","port":16854,"udp":true,"password":"GnpnfXriHF","sni":"13.228.3.48","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"vmess+ws","type":"vmess","server":"13.228.3.48","port":37752,"cipher":"auto","uuid":"0c08cc58-6f79-47ef-c93d-26843a4d1993","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/0c08cc58"}}
-  - {"name":"vmess","type":"vmess","server":"13.228.3.48","port":31535,"cipher":"auto","uuid":"248483b1-b881-4783-8bb0-23986b822f47","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"kcp"}
+  - {"name":"HYJ-vless","type":"vless","server":"3.1.41.6","port":31895,"uuid":"1681cad1-cb7c-46a4-c685-594906569bb4","tls":false,"servername":"3.1.41.6","network":"tcp"}
+  - {"name":"vless+vision+reality","type":"vless","server":"3.1.41.6","port":443,"udp":true,"uuid":"253edc65-fb13-46e0-be00-932e40b436cc","tls":true,"servername":"253edc65.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"R2gKMF0Tetlnesc1pPkZH9NaOeehw-f5_U9JKG_cLjU"},"client-fingerprint":"chrome"}
+  - {"name":"HYJ-SS","type":"ss","server":"3.1.41.6","port":11188,"password":"095318Hh52","cipher":"aes-256-gcm"}
+  - {"name":"trojan","type":"trojan","server":"3.1.41.6","port":16854,"udp":true,"password":"GnpnfXriHF","sni":"3.1.41.6","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"vmess+ws","type":"vmess","server":"3.1.41.6","port":37752,"cipher":"auto","uuid":"0c08cc58-6f79-47ef-c93d-26843a4d1993","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/0c08cc58"}}
+  - {"name":"vmess","type":"vmess","server":"3.1.41.6","port":31535,"cipher":"auto","uuid":"248483b1-b881-4783-8bb0-23986b822f47","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"kcp"}
   - {"name":"104.19.131.118","type":"vless","server":"104.19.131.118","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
   - {"name":"172.67.21.231","type":"vless","server":"172.67.21.231","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
   - {"name":"104.21.238.108","type":"vless","server":"104.21.238.108","port":443,"uuid":"373d83d8-8f29-4d7f-9370-70bae2b8b466","tls":true,"servername":"0725.hyj6297.link","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"0725.hyj6297.link"}},"client-fingerprint":"randomized"}
