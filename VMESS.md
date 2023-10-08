@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-07 13:50:48
+# 创建时间：2023-10-08 09:48:29
 # 使用模版：V2RaySE 默认模版
 # 节点数量：4
 ####################################
@@ -85,10 +85,10 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"HYJ-SS","type":"ss","server":"13.228.3.48","port":11188,"password":"095318Hh52","cipher":"aes-256-gcm"}
-  - {"name":"trojan","type":"trojan","server":"13.228.3.48","port":16854,"udp":true,"password":"GnpnfXriHF","sni":"13.228.3.48","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"vmess+ws","type":"vmess","server":"13.228.3.48","port":37752,"cipher":"auto","uuid":"0c08cc58-6f79-47ef-c93d-26843a4d1993","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/0c08cc58"}}
-  - {"name":"vmess","type":"vmess","server":"13.228.3.48","port":31535,"cipher":"auto","uuid":"248483b1-b881-4783-8bb0-23986b822f47","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"kcp"}
+  - {"name":"HYJ-SS","type":"ss","server":"3.1.41.6","port":11188,"password":"095318Hh52","cipher":"aes-256-gcm"}
+  - {"name":"trojan","type":"trojan","server":"3.1.41.6","port":16854,"udp":true,"password":"GnpnfXriHF","sni":"3.1.41.6","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"vmess+ws","type":"vmess","server":"3.1.41.6","port":37752,"cipher":"auto","uuid":"0c08cc58-6f79-47ef-c93d-26843a4d1993","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/0c08cc58"}}
+  - {"name":"vmess","type":"vmess","server":"3.1.41.6","port":31535,"cipher":"auto","uuid":"248483b1-b881-4783-8bb0-23986b822f47","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"kcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
