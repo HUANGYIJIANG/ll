@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-10 10:53:00
+# 创建时间：2023-10-10 13:12:10
 # 使用模版：V2RaySE 默认模版
 # 节点数量：83
 ####################################
@@ -85,10 +85,10 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"HYJ-SS","type":"ss","server":"3.1.41.6","port":11188,"password":"095318Hh52","cipher":"aes-256-gcm"}
-  - {"name":"trojan","type":"trojan","server":"3.1.41.6","port":16854,"udp":true,"password":"GnpnfXriHF","sni":"3.1.41.6","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"vmess+ws","type":"vmess","server":"3.1.41.6","port":37752,"cipher":"auto","uuid":"0c08cc58-6f79-47ef-c93d-26843a4d1993","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/0c08cc58"}}
-  - {"name":"Vmess","type":"vmess","server":"3.1.41.6","port":1748,"cipher":"auto","uuid":"5b89e449-3245-438a-aaa1-b7202490bf20","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"HYJ-SS","type":"ss","server":"52.220.94.76","port":11188,"password":"095318Hh52","cipher":"aes-256-gcm"}
+  - {"name":"trojan","type":"trojan","server":"52.220.94.76","port":16854,"udp":true,"password":"GnpnfXriHF","sni":"52.220.94.76","skip-cert-verify":true,"network":"tcp"}
+  - {"name":"vmess+ws","type":"vmess","server":"52.220.94.76","port":37752,"cipher":"auto","uuid":"0c08cc58-6f79-47ef-c93d-26843a4d1993","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/0c08cc58"}}
+  - {"name":"Vmess","type":"vmess","server":"52.220.94.76","port":1748,"cipher":"auto","uuid":"5b89e449-3245-438a-aaa1-b7202490bf20","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"日本01|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":25679,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
   - {"name":"日本02|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":12423,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
   - {"name":"日本03|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":57783,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
