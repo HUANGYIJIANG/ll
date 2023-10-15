@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-14 15:57:20
+# 创建时间：2023-10-15 14:25:57
 # 使用模版：V2RaySE 默认模版
 # 节点数量：83
 ####################################
@@ -85,10 +85,10 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"HYJ-SS","type":"ss","server":"18.143.86.44","port":11188,"password":"095318Hh52","cipher":"aes-256-gcm"}
-  - {"name":"trojan","type":"trojan","server":"18.143.86.44","port":16854,"udp":true,"password":"GnpnfXriHF","sni":"18.143.86.44","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"vmess+ws","type":"vmess","server":"18.143.86.44","port":37752,"cipher":"auto","uuid":"0c08cc58-6f79-47ef-c93d-26843a4d1993","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/0c08cc58"}}
-  - {"name":"Vmess","type":"vmess","server":"18.143.86.44","port":1748,"cipher":"auto","uuid":"5b89e449-3245-438a-aaa1-b7202490bf20","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"HYJ-SS","type":"ss","server":"18.138.175.23","port":11188,"password":"095318Hh52","cipher":"aes-256-gcm"}
+  - {"name":"Vmess","type":"vmess","server":"18.138.175.23","port":1748,"cipher":"auto","uuid":"5b89e449-3245-438a-aaa1-b7202490bf20","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"vmess+ws","type":"vmess","server":"18.138.175.23","port":37752,"cipher":"auto","uuid":"0c08cc58-6f79-47ef-c93d-26843a4d1993","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/0c08cc58"}}
+  - {"name":"trojan","type":"trojan","server":"18.138.175.23","port":16854,"udp":true,"password":"GnpnfXriHF","sni":"18.138.175.23","skip-cert-verify":true,"network":"tcp"}
   - {"name":"日本01|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":25679,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
   - {"name":"日本02|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":12423,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
   - {"name":"日本03|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":57783,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
@@ -175,9 +175,9 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - HYJ-SS
-      - trojan
-      - vmess+ws
       - Vmess
+      - vmess+ws
+      - trojan
       - 日本01|日沪专线|NF
       - 日本02|日沪专线|NF
       - 日本03|日沪专线|NF
@@ -264,9 +264,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - HYJ-SS
-      - trojan
-      - vmess+ws
       - Vmess
+      - vmess+ws
+      - trojan
       - 日本01|日沪专线|NF
       - 日本02|日沪专线|NF
       - 日本03|日沪专线|NF
@@ -353,9 +353,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HYJ-SS
-      - trojan
-      - vmess+ws
       - Vmess
+      - vmess+ws
+      - trojan
       - 日本01|日沪专线|NF
       - 日本02|日沪专线|NF
       - 日本03|日沪专线|NF
@@ -441,9 +441,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - HYJ-SS
-      - trojan
-      - vmess+ws
       - Vmess
+      - vmess+ws
+      - trojan
       - 日本01|日沪专线|NF
       - 日本02|日沪专线|NF
       - 日本03|日沪专线|NF
@@ -529,9 +529,9 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - HYJ-SS
-      - trojan
-      - vmess+ws
       - Vmess
+      - vmess+ws
+      - trojan
       - 日本01|日沪专线|NF
       - 日本02|日沪专线|NF
       - 日本03|日沪专线|NF
@@ -617,9 +617,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - HYJ-SS
-      - trojan
-      - vmess+ws
       - Vmess
+      - vmess+ws
+      - trojan
       - 日本01|日沪专线|NF
       - 日本02|日沪专线|NF
       - 日本03|日沪专线|NF
@@ -722,9 +722,9 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - HYJ-SS
-      - trojan
-      - vmess+ws
       - Vmess
+      - vmess+ws
+      - trojan
       - 日本01|日沪专线|NF
       - 日本02|日沪专线|NF
       - 日本03|日沪专线|NF
