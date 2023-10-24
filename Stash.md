@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-20 17:08:23
+# 创建时间：2023-10-24 17:36:06
 # 使用模版：V2RaySE 默认模版
-# 节点数量：84
+# 节点数量：87
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,6 +85,9 @@ dns:
       - 0.0.0.0/32
 
 proxies:
+  - {"name":"repl-SS","type":"ss","server":"kindheartedconcernedsemicolon.hyj6297.repl.co","port":443,"password":"52e653c4-3247-4224-a632-609cc1154e74","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"repl-Trojan","type":"trojan","server":"kindheartedconcernedsemicolon.hyj6297.repl.co","port":443,"udp":true,"password":"52e653c4-3247-4224-a632-609cc1154e74","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tr","headers":{"host":"KindheartedConcernedSemicolon.hyj6297.repl.co"}}}
+  - {"name":"repl-vmess","type":"vmess","server":"KindheartedConcernedSemicolon.hyj6297.repl.co","port":443,"cipher":"auto","uuid":"52e653c4-3247-4224-a632-609cc1154e74","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vm?ed=2048","headers":{"host":"KindheartedConcernedSemicolon.hyj6297.repl.co"}}}
   - {"name":"P01","type":"vmess","server":"p01--spotty-ink--sfgkqh6fn8tv.code.run","port":443,"cipher":"auto","uuid":"de04add9-5c68-8bab-950c-08cd5320df18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"p01--spotty-ink--sfgkqh6fn8tv.code.run","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"p01--spotty-ink--sfgkqh6fn8tv.code.run"}}}
   - {"name":"trojan","type":"trojan","server":"18.138.175.23","port":16854,"udp":true,"password":"GnpnfXriHF","skip-cert-verify":true,"network":"tcp"}
   - {"name":"HYJ-SS","type":"ss","server":"18.138.175.23","port":11188,"password":"095318Hh52","cipher":"aes-256-gcm"}
@@ -175,6 +178,9 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - repl-SS
+      - repl-Trojan
+      - repl-vmess
       - P01
       - trojan
       - HYJ-SS
@@ -265,6 +271,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - repl-SS
+      - repl-Trojan
+      - repl-vmess
       - P01
       - trojan
       - HYJ-SS
@@ -355,6 +364,9 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - repl-SS
+      - repl-Trojan
+      - repl-vmess
       - P01
       - trojan
       - HYJ-SS
@@ -444,6 +456,9 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - repl-SS
+      - repl-Trojan
+      - repl-vmess
       - P01
       - trojan
       - HYJ-SS
@@ -533,6 +548,9 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - repl-SS
+      - repl-Trojan
+      - repl-vmess
       - P01
       - trojan
       - HYJ-SS
@@ -622,6 +640,9 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - repl-SS
+      - repl-Trojan
+      - repl-vmess
       - P01
       - trojan
       - HYJ-SS
@@ -728,6 +749,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - repl-SS
+      - repl-Trojan
+      - repl-vmess
       - P01
       - trojan
       - HYJ-SS
