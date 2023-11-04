@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-25 15:31:59
+# 创建时间：2023-11-04 16:17:57
 # 使用模版：V2RaySE 默认模版
-# 节点数量：87
+# 节点数量：82
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,648 +85,613 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Vmess","type":"vmess","server":"3.1.48.233","port":1748,"cipher":"auto","uuid":"5b89e449-3245-438a-aaa1-b7202490bf20","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"vmess+ws","type":"vmess","server":"3.1.48.233","port":37752,"cipher":"auto","uuid":"0c08cc58-6f79-47ef-c93d-26843a4d1993","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/0c08cc58"}}
-  - {"name":"trojan","type":"trojan","server":"3.1.48.233","port":16854,"udp":true,"password":"GnpnfXriHF","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"HYJ-SS","type":"ss","server":"3.1.48.233","port":11188,"password":"095318Hh52","cipher":"aes-256-gcm"}
-  - {"name":"P01","type":"vmess","server":"p01--spotty-ink--sfgkqh6fn8tv.code.run","port":443,"cipher":"auto","uuid":"de04add9-5c68-8bab-950c-08cd5320df18","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"p01--spotty-ink--sfgkqh6fn8tv.code.run","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"p01--spotty-ink--sfgkqh6fn8tv.code.run"}}}
-  - {"name":"repl-SS","type":"ss","server":"kindheartedconcernedsemicolon.hyj6297.repl.co","port":443,"password":"52e653c4-3247-4224-a632-609cc1154e74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"repl-Trojan","type":"trojan","server":"kindheartedconcernedsemicolon.hyj6297.repl.co","port":443,"udp":true,"password":"52e653c4-3247-4224-a632-609cc1154e74","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tr","headers":{"host":"KindheartedConcernedSemicolon.hyj6297.repl.co"}}}
-  - {"name":"repl-vmess","type":"vmess","server":"KindheartedConcernedSemicolon.hyj6297.repl.co","port":443,"cipher":"auto","uuid":"52e653c4-3247-4224-a632-609cc1154e74","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vm?ed=2048","headers":{"host":"KindheartedConcernedSemicolon.hyj6297.repl.co"}}}
-  - {"name":"智利01|沪美专线|NF","type":"ss","server":"shdx.donghui.tech","port":36649,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"英国04|新杭专线|NF","type":"ss","server":"hzcu.donghui.tech","port":27918,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"英国03|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":21610,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"英国02|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":54417,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"英国 01|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":11400,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"印尼01|新广专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":36019,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"印度01|广新专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":27605,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"伊朗|广港专线|稀有节点","type":"ss","server":"ahhfb.fosi.hk","port":38150,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"匈牙利|新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":40838,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"新加坡4|新广专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":30017,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"新加坡2|新杭专线|NF","type":"ss","server":"hzcu.donghui.tech","port":31501,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"新加坡|新杭专线|NF","type":"ss","server":"hzcu.donghui.tech","port":36899,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"香港04","type":"ss","server":"hncu.donghui.tech","port":46960,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"香港03|广港专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":10659,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"香港01|广港专线|NF","type":"ss","server":"hncu.donghui.tech","port":41466,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"西班牙|新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":28674,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"乌克兰 01|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":58368,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"土耳其01|新徽专线|NF","type":"ss","server":"ahhfb.fosi.hk","port":39903,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"泰国01|广港专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":24446,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"台湾05广港专线|NF","type":"ss","server":"hncu.donghui.tech","port":41122,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"台湾03|日苏专线|NF","type":"ss","server":"hncub.donghui.tech","port":12159,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"塞浦路斯|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":41410,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"瑞士02|广港专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":60679,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"瑞士01|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":20615,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"日本08|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":48030,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"日本07|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":36369,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"日本06|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":44261,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"日本05|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":63607,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"日本04|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":38886,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"日本03|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":57783,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"日本02|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":12423,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"HYJ-SS","type":"ss","server":"54.169.51.155","port":11188,"password":"095318Hh52","cipher":"aes-256-gcm"}
+  - {"name":"HYJ-vmess+ws","type":"vmess","server":"54.169.51.155","port":37752,"cipher":"auto","uuid":"0c08cc58-6f79-47ef-c93d-26843a4d1993","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/0c08cc58"}}
+  - {"name":"HYJ-Vmess","type":"vmess","server":"54.169.51.155","port":1748,"cipher":"auto","uuid":"5b89e449-3245-438a-aaa1-b7202490bf20","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"日本01|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":25679,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"葡萄牙|新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":62280,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"美国08|沪美专线|NF","type":"ss","server":"shdx.donghui.tech","port":64206,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"美国08 |新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":12347,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"美国07|沪美专线|NF","type":"ss","server":"shdx.donghui.tech","port":32859,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"美国04|沪美专线|NF","type":"ss","server":"shdx.donghui.tech","port":57756,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"美国03|沪美专线|NF","type":"ss","server":"shdx.donghui.tech","port":49726,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"日本02|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":12423,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"日本03|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":57783,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"日本04|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":38886,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"日本05|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":63607,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"日本06|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":44261,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"日本07|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":36369,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"日本08|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":48030,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
   - {"name":"美国02|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":23603,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"马来西亚01|新广专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":25238,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"卢森堡01|广港专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":55363,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"捷克 01|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":56304,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"加拿大02|沪美专线|NF","type":"ss","server":"shdx.donghui.tech","port":42117,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"加拿大01|沪美专线|NF","type":"ss","server":"shdx.donghui.tech","port":28280,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"荷兰双线","type":"vmess","server":"nl3.redreimu.xyz","port":2053,"cipher":"auto","uuid":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/112","headers":{"host":"nl3.redreimu.xyz"}}}
-  - {"name":"荷兰02|新徽专线|NF","type":"ss","server":"ahhfb.fosi.hk","port":62495,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"荷兰01|新徽专线|NF","type":"ss","server":"ahhfb.fosi.hk","port":56766,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"韩国首尔05|天津专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":16593,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"韩国首尔04|天津专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":14104,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"韩国首尔03|天津专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":19332,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"韩国春川02|天津专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":12364,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"韩国春川01|天津专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":11387,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"哈萨克斯坦02|天津专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":16419,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"哈萨克斯坦01|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":19469,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"法国双线","type":"vmess","server":"fr1.redreimu.xyz","port":2053,"cipher":"auto","uuid":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/112","headers":{"host":"fr1.redreimu.xyz"}}}
-  - {"name":"法国02|新杭专线|NF","type":"ss","server":"hzcu.donghui.tech","port":41418,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"法国01|新杭专线|NF","type":"ss","server":"hzcu.donghui.tech","port":35314,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"法国01 |新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":17415,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"俄罗斯 01|广港专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":38280,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"迪拜01|新徽专线|NF","type":"ss","server":"ahhfb.fosi.hk","port":48470,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"德国02津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":37800,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"美国03|沪美专线|NF","type":"ss","server":"shdx.donghui.tech","port":49726,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"美国04|沪美专线|NF","type":"ss","server":"shdx.donghui.tech","port":57756,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"美国07|沪美专线|NF","type":"ss","server":"shdx.donghui.tech","port":32859,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"美国08|沪美专线|NF","type":"ss","server":"shdx.donghui.tech","port":64206,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
   - {"name":"德国01|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":53628,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"朝鲜2|沪美专线|稀有节点","type":"ss","server":"shdx.donghui.tech","port":54569,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"波兰双线","type":"vmess","server":"pol.redreimu.xyz","port":2053,"cipher":"auto","uuid":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/112","headers":{"host":"pol.redreimu.xyz"}}}
-  - {"name":"冰岛|广港专线|NF|稀有节点","type":"ss","server":"gdgda.donghui.tech","port":16496,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"巴西03|日苏专线|NF","type":"ss","server":"hncub.donghui.tech","port":49474,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"巴西03 |新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":25839,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"巴西02|日苏专线|NF","type":"ss","server":"hncub.donghui.tech","port":13030,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"巴西|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":24199,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"巴巴多斯|稀有节点|NF","type":"ss","server":"shdx.donghui.tech","port":18896,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"澳门|广新专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":31591,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"澳大利亚04|新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":64485,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"澳大利亚03|新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":47567,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"澳大利亚02|新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":34707,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"澳大利亚|日苏专线|NF","type":"ss","server":"hncub.donghui.tech","port":50771,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"奥地利 01|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":56304,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"埃及|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":14270,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
-  - {"name":"阿根廷|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":30514,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"德国02津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":37800,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"香港03|广港专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":10659,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"香港04","type":"ss","server":"hncu.donghui.tech","port":46960,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"韩国春川01|天津专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":11387,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"韩国春川02|天津专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":12364,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"台湾03|日苏专线|NF","type":"ss","server":"hncub.donghui.tech","port":12159,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"韩国首尔03|天津专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":19332,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"韩国首尔04|天津专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":14104,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"韩国首尔05|天津专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":16593,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"新加坡|新杭专线|NF","type":"ss","server":"hzcu.donghui.tech","port":36899,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"法国01|新杭专线|NF","type":"ss","server":"hzcu.donghui.tech","port":35314,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"法国02|新杭专线|NF","type":"ss","server":"hzcu.donghui.tech","port":41418,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"瑞士01|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":20615,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"瑞士02|广港专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":60679,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"迪拜01|新徽专线|NF","type":"ss","server":"ahhfb.fosi.hk","port":48470,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
   - {"name":"阿布扎比|新徽专线|NF","type":"ss","server":"ahhfb.fosi.hk","port":17172,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"荷兰01|新徽专线|NF","type":"ss","server":"ahhfb.fosi.hk","port":56766,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"荷兰02|新徽专线|NF","type":"ss","server":"ahhfb.fosi.hk","port":62495,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"加拿大01|沪美专线|NF","type":"ss","server":"shdx.donghui.tech","port":28280,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"加拿大02|沪美专线|NF","type":"ss","server":"shdx.donghui.tech","port":42117,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"智利01|沪美专线|NF","type":"ss","server":"shdx.donghui.tech","port":36649,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"土耳其01|新徽专线|NF","type":"ss","server":"ahhfb.fosi.hk","port":39903,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"卢森堡01|广港专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":55363,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"泰国01|广港专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":24446,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"印度01|广新专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":27605,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"英国 01|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":11400,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"乌克兰 01|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":58368,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"俄罗斯 01|广港专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":38280,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"捷克 01|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":56304,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"奥地利 01|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":56304,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"印尼01|新广专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":36019,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"马来西亚01|新广专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":25238,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"哈萨克斯坦01|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":19469,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"哈萨克斯坦02|天津专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":16419,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"巴西|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":24199,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"阿根廷|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":30514,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"塞浦路斯|日沪专线|NF","type":"ss","server":"shshcua.fosi.hk","port":41410,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"澳大利亚|日苏专线|NF","type":"ss","server":"hncub.donghui.tech","port":50771,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"埃及|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":14270,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"澳门|广新专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":31591,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"巴西02|日苏专线|NF","type":"ss","server":"hncub.donghui.tech","port":13030,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"巴西03|日苏专线|NF","type":"ss","server":"hncub.donghui.tech","port":49474,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"香港01|广港专线|NF","type":"ss","server":"hncu.donghui.tech","port":41466,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"英国02|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":54417,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"英国03|津德专线|NF","type":"ss","server":"bbjcu.donghui.tech","port":21610,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"英国04|新杭专线|NF","type":"ss","server":"hzcu.donghui.tech","port":27918,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"法国01 |新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":17415,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"巴西03 |新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":25839,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"美国08 |新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":12347,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"新加坡2|新杭专线|NF","type":"ss","server":"hzcu.donghui.tech","port":31501,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"澳大利亚02|新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":34707,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"澳大利亚03|新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":47567,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"澳大利亚04|新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":64485,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"巴巴多斯|稀有节点|NF","type":"ss","server":"shdx.donghui.tech","port":18896,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"朝鲜2|沪美专线|稀有节点","type":"ss","server":"shdx.donghui.tech","port":54569,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"冰岛|广港专线|NF|稀有节点","type":"ss","server":"gdgda.donghui.tech","port":16496,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"葡萄牙|新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":62280,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"西班牙|新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":28674,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"匈牙利|新广专线|NF","type":"ss","server":"gdgda.donghui.tech","port":40838,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"伊朗|广港专线|稀有节点","type":"ss","server":"ahhfb.fosi.hk","port":38150,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"新加坡4|新广专线|NF","type":"ss","server":"dagebeidale.donghui.tech","port":30017,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"台湾05广港专线|NF","type":"ss","server":"hncu.donghui.tech","port":41122,"password":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","cipher":"aes-128-gcm"}
+  - {"name":"法国双线","type":"vmess","server":"fr1.redreimu.xyz","port":2053,"cipher":"auto","uuid":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/112","headers":{"host":"fr1.redreimu.xyz"}}}
+  - {"name":"荷兰双线","type":"vmess","server":"nl3.redreimu.xyz","port":2053,"cipher":"auto","uuid":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/112","headers":{"host":"nl3.redreimu.xyz"}}}
+  - {"name":"波兰双线","type":"vmess","server":"pol.redreimu.xyz","port":2053,"cipher":"auto","uuid":"cc2a4529-d7b0-4ff8-9d78-578e217ed372","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/112","headers":{"host":"pol.redreimu.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Vmess
-      - vmess+ws
-      - trojan
       - HYJ-SS
-      - P01
-      - repl-SS
-      - repl-Trojan
-      - repl-vmess
-      - 智利01|沪美专线|NF
-      - 英国04|新杭专线|NF
-      - 英国03|津德专线|NF
-      - 英国02|津德专线|NF
-      - 英国 01|津德专线|NF
-      - 印尼01|新广专线|NF
-      - 印度01|广新专线|NF
-      - 伊朗|广港专线|稀有节点
-      - 匈牙利|新广专线|NF
-      - 新加坡4|新广专线|NF
-      - 新加坡2|新杭专线|NF
-      - 新加坡|新杭专线|NF
-      - 香港04
-      - 香港03|广港专线|NF
-      - 香港01|广港专线|NF
-      - 西班牙|新广专线|NF
-      - 乌克兰 01|津德专线|NF
-      - 土耳其01|新徽专线|NF
-      - 泰国01|广港专线|NF
-      - 台湾05广港专线|NF
-      - 台湾03|日苏专线|NF
-      - 塞浦路斯|日沪专线|NF
-      - 瑞士02|广港专线|NF
-      - 瑞士01|津德专线|NF
-      - 日本08|日沪专线|NF
-      - 日本07|日沪专线|NF
-      - 日本06|日沪专线|NF
-      - 日本05|日沪专线|NF
-      - 日本04|日沪专线|NF
-      - 日本03|日沪专线|NF
-      - 日本02|日沪专线|NF
+      - HYJ-vmess+ws
+      - HYJ-Vmess
       - 日本01|日沪专线|NF
-      - 葡萄牙|新广专线|NF
-      - 美国08|沪美专线|NF
-      - 美国08 |新广专线|NF
-      - 美国07|沪美专线|NF
-      - 美国04|沪美专线|NF
-      - 美国03|沪美专线|NF
+      - 日本02|日沪专线|NF
+      - 日本03|日沪专线|NF
+      - 日本04|日沪专线|NF
+      - 日本05|日沪专线|NF
+      - 日本06|日沪专线|NF
+      - 日本07|日沪专线|NF
+      - 日本08|日沪专线|NF
       - 美国02|日沪专线|NF
-      - 马来西亚01|新广专线|NF
-      - 卢森堡01|广港专线|NF
-      - 捷克 01|津德专线|NF
-      - 加拿大02|沪美专线|NF
-      - 加拿大01|沪美专线|NF
-      - 荷兰双线
-      - 荷兰02|新徽专线|NF
-      - 荷兰01|新徽专线|NF
-      - 韩国首尔05|天津专线|NF
-      - 韩国首尔04|天津专线|NF
-      - 韩国首尔03|天津专线|NF
-      - 韩国春川02|天津专线|NF
-      - 韩国春川01|天津专线|NF
-      - 哈萨克斯坦02|天津专线|NF
-      - 哈萨克斯坦01|日沪专线|NF
-      - 法国双线
-      - 法国02|新杭专线|NF
-      - 法国01|新杭专线|NF
-      - 法国01 |新广专线|NF
-      - 俄罗斯 01|广港专线|NF
-      - 迪拜01|新徽专线|NF
-      - 德国02津德专线|NF
+      - 美国03|沪美专线|NF
+      - 美国04|沪美专线|NF
+      - 美国07|沪美专线|NF
+      - 美国08|沪美专线|NF
       - 德国01|津德专线|NF
-      - 朝鲜2|沪美专线|稀有节点
-      - 波兰双线
-      - 冰岛|广港专线|NF|稀有节点
-      - 巴西03|日苏专线|NF
-      - 巴西03 |新广专线|NF
-      - 巴西02|日苏专线|NF
-      - 巴西|日沪专线|NF
-      - 巴巴多斯|稀有节点|NF
-      - 澳门|广新专线|NF
-      - 澳大利亚04|新广专线|NF
-      - 澳大利亚03|新广专线|NF
-      - 澳大利亚02|新广专线|NF
-      - 澳大利亚|日苏专线|NF
-      - 奥地利 01|津德专线|NF
-      - 埃及|津德专线|NF
-      - 阿根廷|日沪专线|NF
+      - 德国02津德专线|NF
+      - 香港03|广港专线|NF
+      - 香港04
+      - 韩国春川01|天津专线|NF
+      - 韩国春川02|天津专线|NF
+      - 台湾03|日苏专线|NF
+      - 韩国首尔03|天津专线|NF
+      - 韩国首尔04|天津专线|NF
+      - 韩国首尔05|天津专线|NF
+      - 新加坡|新杭专线|NF
+      - 法国01|新杭专线|NF
+      - 法国02|新杭专线|NF
+      - 瑞士01|津德专线|NF
+      - 瑞士02|广港专线|NF
+      - 迪拜01|新徽专线|NF
       - 阿布扎比|新徽专线|NF
+      - 荷兰01|新徽专线|NF
+      - 荷兰02|新徽专线|NF
+      - 加拿大01|沪美专线|NF
+      - 加拿大02|沪美专线|NF
+      - 智利01|沪美专线|NF
+      - 土耳其01|新徽专线|NF
+      - 卢森堡01|广港专线|NF
+      - 泰国01|广港专线|NF
+      - 印度01|广新专线|NF
+      - 英国 01|津德专线|NF
+      - 乌克兰 01|津德专线|NF
+      - 俄罗斯 01|广港专线|NF
+      - 捷克 01|津德专线|NF
+      - 奥地利 01|津德专线|NF
+      - 印尼01|新广专线|NF
+      - 马来西亚01|新广专线|NF
+      - 哈萨克斯坦01|日沪专线|NF
+      - 哈萨克斯坦02|天津专线|NF
+      - 巴西|日沪专线|NF
+      - 阿根廷|日沪专线|NF
+      - 塞浦路斯|日沪专线|NF
+      - 澳大利亚|日苏专线|NF
+      - 埃及|津德专线|NF
+      - 澳门|广新专线|NF
+      - 巴西02|日苏专线|NF
+      - 巴西03|日苏专线|NF
+      - 香港01|广港专线|NF
+      - 英国02|津德专线|NF
+      - 英国03|津德专线|NF
+      - 英国04|新杭专线|NF
+      - 法国01 |新广专线|NF
+      - 巴西03 |新广专线|NF
+      - 美国08 |新广专线|NF
+      - 新加坡2|新杭专线|NF
+      - 澳大利亚02|新广专线|NF
+      - 澳大利亚03|新广专线|NF
+      - 澳大利亚04|新广专线|NF
+      - 巴巴多斯|稀有节点|NF
+      - 朝鲜2|沪美专线|稀有节点
+      - 冰岛|广港专线|NF|稀有节点
+      - 葡萄牙|新广专线|NF
+      - 西班牙|新广专线|NF
+      - 匈牙利|新广专线|NF
+      - 伊朗|广港专线|稀有节点
+      - 新加坡4|新广专线|NF
+      - 台湾05广港专线|NF
+      - 法国双线
+      - 荷兰双线
+      - 波兰双线
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Vmess
-      - vmess+ws
-      - trojan
       - HYJ-SS
-      - P01
-      - repl-SS
-      - repl-Trojan
-      - repl-vmess
-      - 智利01|沪美专线|NF
-      - 英国04|新杭专线|NF
-      - 英国03|津德专线|NF
-      - 英国02|津德专线|NF
-      - 英国 01|津德专线|NF
-      - 印尼01|新广专线|NF
-      - 印度01|广新专线|NF
-      - 伊朗|广港专线|稀有节点
-      - 匈牙利|新广专线|NF
-      - 新加坡4|新广专线|NF
-      - 新加坡2|新杭专线|NF
-      - 新加坡|新杭专线|NF
-      - 香港04
-      - 香港03|广港专线|NF
-      - 香港01|广港专线|NF
-      - 西班牙|新广专线|NF
-      - 乌克兰 01|津德专线|NF
-      - 土耳其01|新徽专线|NF
-      - 泰国01|广港专线|NF
-      - 台湾05广港专线|NF
-      - 台湾03|日苏专线|NF
-      - 塞浦路斯|日沪专线|NF
-      - 瑞士02|广港专线|NF
-      - 瑞士01|津德专线|NF
-      - 日本08|日沪专线|NF
-      - 日本07|日沪专线|NF
-      - 日本06|日沪专线|NF
-      - 日本05|日沪专线|NF
-      - 日本04|日沪专线|NF
-      - 日本03|日沪专线|NF
-      - 日本02|日沪专线|NF
+      - HYJ-vmess+ws
+      - HYJ-Vmess
       - 日本01|日沪专线|NF
-      - 葡萄牙|新广专线|NF
-      - 美国08|沪美专线|NF
-      - 美国08 |新广专线|NF
-      - 美国07|沪美专线|NF
-      - 美国04|沪美专线|NF
-      - 美国03|沪美专线|NF
+      - 日本02|日沪专线|NF
+      - 日本03|日沪专线|NF
+      - 日本04|日沪专线|NF
+      - 日本05|日沪专线|NF
+      - 日本06|日沪专线|NF
+      - 日本07|日沪专线|NF
+      - 日本08|日沪专线|NF
       - 美国02|日沪专线|NF
-      - 马来西亚01|新广专线|NF
-      - 卢森堡01|广港专线|NF
-      - 捷克 01|津德专线|NF
-      - 加拿大02|沪美专线|NF
-      - 加拿大01|沪美专线|NF
-      - 荷兰双线
-      - 荷兰02|新徽专线|NF
-      - 荷兰01|新徽专线|NF
-      - 韩国首尔05|天津专线|NF
-      - 韩国首尔04|天津专线|NF
-      - 韩国首尔03|天津专线|NF
-      - 韩国春川02|天津专线|NF
-      - 韩国春川01|天津专线|NF
-      - 哈萨克斯坦02|天津专线|NF
-      - 哈萨克斯坦01|日沪专线|NF
-      - 法国双线
-      - 法国02|新杭专线|NF
-      - 法国01|新杭专线|NF
-      - 法国01 |新广专线|NF
-      - 俄罗斯 01|广港专线|NF
-      - 迪拜01|新徽专线|NF
-      - 德国02津德专线|NF
+      - 美国03|沪美专线|NF
+      - 美国04|沪美专线|NF
+      - 美国07|沪美专线|NF
+      - 美国08|沪美专线|NF
       - 德国01|津德专线|NF
-      - 朝鲜2|沪美专线|稀有节点
-      - 波兰双线
-      - 冰岛|广港专线|NF|稀有节点
-      - 巴西03|日苏专线|NF
-      - 巴西03 |新广专线|NF
-      - 巴西02|日苏专线|NF
-      - 巴西|日沪专线|NF
-      - 巴巴多斯|稀有节点|NF
-      - 澳门|广新专线|NF
-      - 澳大利亚04|新广专线|NF
-      - 澳大利亚03|新广专线|NF
-      - 澳大利亚02|新广专线|NF
-      - 澳大利亚|日苏专线|NF
-      - 奥地利 01|津德专线|NF
-      - 埃及|津德专线|NF
-      - 阿根廷|日沪专线|NF
+      - 德国02津德专线|NF
+      - 香港03|广港专线|NF
+      - 香港04
+      - 韩国春川01|天津专线|NF
+      - 韩国春川02|天津专线|NF
+      - 台湾03|日苏专线|NF
+      - 韩国首尔03|天津专线|NF
+      - 韩国首尔04|天津专线|NF
+      - 韩国首尔05|天津专线|NF
+      - 新加坡|新杭专线|NF
+      - 法国01|新杭专线|NF
+      - 法国02|新杭专线|NF
+      - 瑞士01|津德专线|NF
+      - 瑞士02|广港专线|NF
+      - 迪拜01|新徽专线|NF
       - 阿布扎比|新徽专线|NF
+      - 荷兰01|新徽专线|NF
+      - 荷兰02|新徽专线|NF
+      - 加拿大01|沪美专线|NF
+      - 加拿大02|沪美专线|NF
+      - 智利01|沪美专线|NF
+      - 土耳其01|新徽专线|NF
+      - 卢森堡01|广港专线|NF
+      - 泰国01|广港专线|NF
+      - 印度01|广新专线|NF
+      - 英国 01|津德专线|NF
+      - 乌克兰 01|津德专线|NF
+      - 俄罗斯 01|广港专线|NF
+      - 捷克 01|津德专线|NF
+      - 奥地利 01|津德专线|NF
+      - 印尼01|新广专线|NF
+      - 马来西亚01|新广专线|NF
+      - 哈萨克斯坦01|日沪专线|NF
+      - 哈萨克斯坦02|天津专线|NF
+      - 巴西|日沪专线|NF
+      - 阿根廷|日沪专线|NF
+      - 塞浦路斯|日沪专线|NF
+      - 澳大利亚|日苏专线|NF
+      - 埃及|津德专线|NF
+      - 澳门|广新专线|NF
+      - 巴西02|日苏专线|NF
+      - 巴西03|日苏专线|NF
+      - 香港01|广港专线|NF
+      - 英国02|津德专线|NF
+      - 英国03|津德专线|NF
+      - 英国04|新杭专线|NF
+      - 法国01 |新广专线|NF
+      - 巴西03 |新广专线|NF
+      - 美国08 |新广专线|NF
+      - 新加坡2|新杭专线|NF
+      - 澳大利亚02|新广专线|NF
+      - 澳大利亚03|新广专线|NF
+      - 澳大利亚04|新广专线|NF
+      - 巴巴多斯|稀有节点|NF
+      - 朝鲜2|沪美专线|稀有节点
+      - 冰岛|广港专线|NF|稀有节点
+      - 葡萄牙|新广专线|NF
+      - 西班牙|新广专线|NF
+      - 匈牙利|新广专线|NF
+      - 伊朗|广港专线|稀有节点
+      - 新加坡4|新广专线|NF
+      - 台湾05广港专线|NF
+      - 法国双线
+      - 荷兰双线
+      - 波兰双线
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Vmess
-      - vmess+ws
-      - trojan
       - HYJ-SS
-      - P01
-      - repl-SS
-      - repl-Trojan
-      - repl-vmess
-      - 智利01|沪美专线|NF
-      - 英国04|新杭专线|NF
-      - 英国03|津德专线|NF
-      - 英国02|津德专线|NF
-      - 英国 01|津德专线|NF
-      - 印尼01|新广专线|NF
-      - 印度01|广新专线|NF
-      - 伊朗|广港专线|稀有节点
-      - 匈牙利|新广专线|NF
-      - 新加坡4|新广专线|NF
-      - 新加坡2|新杭专线|NF
-      - 新加坡|新杭专线|NF
-      - 香港04
-      - 香港03|广港专线|NF
-      - 香港01|广港专线|NF
-      - 西班牙|新广专线|NF
-      - 乌克兰 01|津德专线|NF
-      - 土耳其01|新徽专线|NF
-      - 泰国01|广港专线|NF
-      - 台湾05广港专线|NF
-      - 台湾03|日苏专线|NF
-      - 塞浦路斯|日沪专线|NF
-      - 瑞士02|广港专线|NF
-      - 瑞士01|津德专线|NF
-      - 日本08|日沪专线|NF
-      - 日本07|日沪专线|NF
-      - 日本06|日沪专线|NF
-      - 日本05|日沪专线|NF
-      - 日本04|日沪专线|NF
-      - 日本03|日沪专线|NF
-      - 日本02|日沪专线|NF
+      - HYJ-vmess+ws
+      - HYJ-Vmess
       - 日本01|日沪专线|NF
-      - 葡萄牙|新广专线|NF
-      - 美国08|沪美专线|NF
-      - 美国08 |新广专线|NF
-      - 美国07|沪美专线|NF
-      - 美国04|沪美专线|NF
-      - 美国03|沪美专线|NF
+      - 日本02|日沪专线|NF
+      - 日本03|日沪专线|NF
+      - 日本04|日沪专线|NF
+      - 日本05|日沪专线|NF
+      - 日本06|日沪专线|NF
+      - 日本07|日沪专线|NF
+      - 日本08|日沪专线|NF
       - 美国02|日沪专线|NF
-      - 马来西亚01|新广专线|NF
-      - 卢森堡01|广港专线|NF
-      - 捷克 01|津德专线|NF
-      - 加拿大02|沪美专线|NF
-      - 加拿大01|沪美专线|NF
-      - 荷兰双线
-      - 荷兰02|新徽专线|NF
-      - 荷兰01|新徽专线|NF
-      - 韩国首尔05|天津专线|NF
-      - 韩国首尔04|天津专线|NF
-      - 韩国首尔03|天津专线|NF
-      - 韩国春川02|天津专线|NF
-      - 韩国春川01|天津专线|NF
-      - 哈萨克斯坦02|天津专线|NF
-      - 哈萨克斯坦01|日沪专线|NF
-      - 法国双线
-      - 法国02|新杭专线|NF
-      - 法国01|新杭专线|NF
-      - 法国01 |新广专线|NF
-      - 俄罗斯 01|广港专线|NF
-      - 迪拜01|新徽专线|NF
-      - 德国02津德专线|NF
+      - 美国03|沪美专线|NF
+      - 美国04|沪美专线|NF
+      - 美国07|沪美专线|NF
+      - 美国08|沪美专线|NF
       - 德国01|津德专线|NF
-      - 朝鲜2|沪美专线|稀有节点
-      - 波兰双线
-      - 冰岛|广港专线|NF|稀有节点
-      - 巴西03|日苏专线|NF
-      - 巴西03 |新广专线|NF
-      - 巴西02|日苏专线|NF
-      - 巴西|日沪专线|NF
-      - 巴巴多斯|稀有节点|NF
-      - 澳门|广新专线|NF
-      - 澳大利亚04|新广专线|NF
-      - 澳大利亚03|新广专线|NF
-      - 澳大利亚02|新广专线|NF
-      - 澳大利亚|日苏专线|NF
-      - 奥地利 01|津德专线|NF
-      - 埃及|津德专线|NF
-      - 阿根廷|日沪专线|NF
+      - 德国02津德专线|NF
+      - 香港03|广港专线|NF
+      - 香港04
+      - 韩国春川01|天津专线|NF
+      - 韩国春川02|天津专线|NF
+      - 台湾03|日苏专线|NF
+      - 韩国首尔03|天津专线|NF
+      - 韩国首尔04|天津专线|NF
+      - 韩国首尔05|天津专线|NF
+      - 新加坡|新杭专线|NF
+      - 法国01|新杭专线|NF
+      - 法国02|新杭专线|NF
+      - 瑞士01|津德专线|NF
+      - 瑞士02|广港专线|NF
+      - 迪拜01|新徽专线|NF
       - 阿布扎比|新徽专线|NF
+      - 荷兰01|新徽专线|NF
+      - 荷兰02|新徽专线|NF
+      - 加拿大01|沪美专线|NF
+      - 加拿大02|沪美专线|NF
+      - 智利01|沪美专线|NF
+      - 土耳其01|新徽专线|NF
+      - 卢森堡01|广港专线|NF
+      - 泰国01|广港专线|NF
+      - 印度01|广新专线|NF
+      - 英国 01|津德专线|NF
+      - 乌克兰 01|津德专线|NF
+      - 俄罗斯 01|广港专线|NF
+      - 捷克 01|津德专线|NF
+      - 奥地利 01|津德专线|NF
+      - 印尼01|新广专线|NF
+      - 马来西亚01|新广专线|NF
+      - 哈萨克斯坦01|日沪专线|NF
+      - 哈萨克斯坦02|天津专线|NF
+      - 巴西|日沪专线|NF
+      - 阿根廷|日沪专线|NF
+      - 塞浦路斯|日沪专线|NF
+      - 澳大利亚|日苏专线|NF
+      - 埃及|津德专线|NF
+      - 澳门|广新专线|NF
+      - 巴西02|日苏专线|NF
+      - 巴西03|日苏专线|NF
+      - 香港01|广港专线|NF
+      - 英国02|津德专线|NF
+      - 英国03|津德专线|NF
+      - 英国04|新杭专线|NF
+      - 法国01 |新广专线|NF
+      - 巴西03 |新广专线|NF
+      - 美国08 |新广专线|NF
+      - 新加坡2|新杭专线|NF
+      - 澳大利亚02|新广专线|NF
+      - 澳大利亚03|新广专线|NF
+      - 澳大利亚04|新广专线|NF
+      - 巴巴多斯|稀有节点|NF
+      - 朝鲜2|沪美专线|稀有节点
+      - 冰岛|广港专线|NF|稀有节点
+      - 葡萄牙|新广专线|NF
+      - 西班牙|新广专线|NF
+      - 匈牙利|新广专线|NF
+      - 伊朗|广港专线|稀有节点
+      - 新加坡4|新广专线|NF
+      - 台湾05广港专线|NF
+      - 法国双线
+      - 荷兰双线
+      - 波兰双线
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Vmess
-      - vmess+ws
-      - trojan
       - HYJ-SS
-      - P01
-      - repl-SS
-      - repl-Trojan
-      - repl-vmess
-      - 智利01|沪美专线|NF
-      - 英国04|新杭专线|NF
-      - 英国03|津德专线|NF
-      - 英国02|津德专线|NF
-      - 英国 01|津德专线|NF
-      - 印尼01|新广专线|NF
-      - 印度01|广新专线|NF
-      - 伊朗|广港专线|稀有节点
-      - 匈牙利|新广专线|NF
-      - 新加坡4|新广专线|NF
-      - 新加坡2|新杭专线|NF
-      - 新加坡|新杭专线|NF
-      - 香港04
-      - 香港03|广港专线|NF
-      - 香港01|广港专线|NF
-      - 西班牙|新广专线|NF
-      - 乌克兰 01|津德专线|NF
-      - 土耳其01|新徽专线|NF
-      - 泰国01|广港专线|NF
-      - 台湾05广港专线|NF
-      - 台湾03|日苏专线|NF
-      - 塞浦路斯|日沪专线|NF
-      - 瑞士02|广港专线|NF
-      - 瑞士01|津德专线|NF
-      - 日本08|日沪专线|NF
-      - 日本07|日沪专线|NF
-      - 日本06|日沪专线|NF
-      - 日本05|日沪专线|NF
-      - 日本04|日沪专线|NF
-      - 日本03|日沪专线|NF
-      - 日本02|日沪专线|NF
+      - HYJ-vmess+ws
+      - HYJ-Vmess
       - 日本01|日沪专线|NF
-      - 葡萄牙|新广专线|NF
-      - 美国08|沪美专线|NF
-      - 美国08 |新广专线|NF
-      - 美国07|沪美专线|NF
-      - 美国04|沪美专线|NF
-      - 美国03|沪美专线|NF
+      - 日本02|日沪专线|NF
+      - 日本03|日沪专线|NF
+      - 日本04|日沪专线|NF
+      - 日本05|日沪专线|NF
+      - 日本06|日沪专线|NF
+      - 日本07|日沪专线|NF
+      - 日本08|日沪专线|NF
       - 美国02|日沪专线|NF
-      - 马来西亚01|新广专线|NF
-      - 卢森堡01|广港专线|NF
-      - 捷克 01|津德专线|NF
-      - 加拿大02|沪美专线|NF
-      - 加拿大01|沪美专线|NF
-      - 荷兰双线
-      - 荷兰02|新徽专线|NF
-      - 荷兰01|新徽专线|NF
-      - 韩国首尔05|天津专线|NF
-      - 韩国首尔04|天津专线|NF
-      - 韩国首尔03|天津专线|NF
-      - 韩国春川02|天津专线|NF
-      - 韩国春川01|天津专线|NF
-      - 哈萨克斯坦02|天津专线|NF
-      - 哈萨克斯坦01|日沪专线|NF
-      - 法国双线
-      - 法国02|新杭专线|NF
-      - 法国01|新杭专线|NF
-      - 法国01 |新广专线|NF
-      - 俄罗斯 01|广港专线|NF
-      - 迪拜01|新徽专线|NF
-      - 德国02津德专线|NF
+      - 美国03|沪美专线|NF
+      - 美国04|沪美专线|NF
+      - 美国07|沪美专线|NF
+      - 美国08|沪美专线|NF
       - 德国01|津德专线|NF
-      - 朝鲜2|沪美专线|稀有节点
-      - 波兰双线
-      - 冰岛|广港专线|NF|稀有节点
-      - 巴西03|日苏专线|NF
-      - 巴西03 |新广专线|NF
-      - 巴西02|日苏专线|NF
-      - 巴西|日沪专线|NF
-      - 巴巴多斯|稀有节点|NF
-      - 澳门|广新专线|NF
-      - 澳大利亚04|新广专线|NF
-      - 澳大利亚03|新广专线|NF
-      - 澳大利亚02|新广专线|NF
-      - 澳大利亚|日苏专线|NF
-      - 奥地利 01|津德专线|NF
-      - 埃及|津德专线|NF
-      - 阿根廷|日沪专线|NF
+      - 德国02津德专线|NF
+      - 香港03|广港专线|NF
+      - 香港04
+      - 韩国春川01|天津专线|NF
+      - 韩国春川02|天津专线|NF
+      - 台湾03|日苏专线|NF
+      - 韩国首尔03|天津专线|NF
+      - 韩国首尔04|天津专线|NF
+      - 韩国首尔05|天津专线|NF
+      - 新加坡|新杭专线|NF
+      - 法国01|新杭专线|NF
+      - 法国02|新杭专线|NF
+      - 瑞士01|津德专线|NF
+      - 瑞士02|广港专线|NF
+      - 迪拜01|新徽专线|NF
       - 阿布扎比|新徽专线|NF
+      - 荷兰01|新徽专线|NF
+      - 荷兰02|新徽专线|NF
+      - 加拿大01|沪美专线|NF
+      - 加拿大02|沪美专线|NF
+      - 智利01|沪美专线|NF
+      - 土耳其01|新徽专线|NF
+      - 卢森堡01|广港专线|NF
+      - 泰国01|广港专线|NF
+      - 印度01|广新专线|NF
+      - 英国 01|津德专线|NF
+      - 乌克兰 01|津德专线|NF
+      - 俄罗斯 01|广港专线|NF
+      - 捷克 01|津德专线|NF
+      - 奥地利 01|津德专线|NF
+      - 印尼01|新广专线|NF
+      - 马来西亚01|新广专线|NF
+      - 哈萨克斯坦01|日沪专线|NF
+      - 哈萨克斯坦02|天津专线|NF
+      - 巴西|日沪专线|NF
+      - 阿根廷|日沪专线|NF
+      - 塞浦路斯|日沪专线|NF
+      - 澳大利亚|日苏专线|NF
+      - 埃及|津德专线|NF
+      - 澳门|广新专线|NF
+      - 巴西02|日苏专线|NF
+      - 巴西03|日苏专线|NF
+      - 香港01|广港专线|NF
+      - 英国02|津德专线|NF
+      - 英国03|津德专线|NF
+      - 英国04|新杭专线|NF
+      - 法国01 |新广专线|NF
+      - 巴西03 |新广专线|NF
+      - 美国08 |新广专线|NF
+      - 新加坡2|新杭专线|NF
+      - 澳大利亚02|新广专线|NF
+      - 澳大利亚03|新广专线|NF
+      - 澳大利亚04|新广专线|NF
+      - 巴巴多斯|稀有节点|NF
+      - 朝鲜2|沪美专线|稀有节点
+      - 冰岛|广港专线|NF|稀有节点
+      - 葡萄牙|新广专线|NF
+      - 西班牙|新广专线|NF
+      - 匈牙利|新广专线|NF
+      - 伊朗|广港专线|稀有节点
+      - 新加坡4|新广专线|NF
+      - 台湾05广港专线|NF
+      - 法国双线
+      - 荷兰双线
+      - 波兰双线
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Vmess
-      - vmess+ws
-      - trojan
       - HYJ-SS
-      - P01
-      - repl-SS
-      - repl-Trojan
-      - repl-vmess
-      - 智利01|沪美专线|NF
-      - 英国04|新杭专线|NF
-      - 英国03|津德专线|NF
-      - 英国02|津德专线|NF
-      - 英国 01|津德专线|NF
-      - 印尼01|新广专线|NF
-      - 印度01|广新专线|NF
-      - 伊朗|广港专线|稀有节点
-      - 匈牙利|新广专线|NF
-      - 新加坡4|新广专线|NF
-      - 新加坡2|新杭专线|NF
-      - 新加坡|新杭专线|NF
-      - 香港04
-      - 香港03|广港专线|NF
-      - 香港01|广港专线|NF
-      - 西班牙|新广专线|NF
-      - 乌克兰 01|津德专线|NF
-      - 土耳其01|新徽专线|NF
-      - 泰国01|广港专线|NF
-      - 台湾05广港专线|NF
-      - 台湾03|日苏专线|NF
-      - 塞浦路斯|日沪专线|NF
-      - 瑞士02|广港专线|NF
-      - 瑞士01|津德专线|NF
-      - 日本08|日沪专线|NF
-      - 日本07|日沪专线|NF
-      - 日本06|日沪专线|NF
-      - 日本05|日沪专线|NF
-      - 日本04|日沪专线|NF
-      - 日本03|日沪专线|NF
-      - 日本02|日沪专线|NF
+      - HYJ-vmess+ws
+      - HYJ-Vmess
       - 日本01|日沪专线|NF
-      - 葡萄牙|新广专线|NF
-      - 美国08|沪美专线|NF
-      - 美国08 |新广专线|NF
-      - 美国07|沪美专线|NF
-      - 美国04|沪美专线|NF
-      - 美国03|沪美专线|NF
+      - 日本02|日沪专线|NF
+      - 日本03|日沪专线|NF
+      - 日本04|日沪专线|NF
+      - 日本05|日沪专线|NF
+      - 日本06|日沪专线|NF
+      - 日本07|日沪专线|NF
+      - 日本08|日沪专线|NF
       - 美国02|日沪专线|NF
-      - 马来西亚01|新广专线|NF
-      - 卢森堡01|广港专线|NF
-      - 捷克 01|津德专线|NF
-      - 加拿大02|沪美专线|NF
-      - 加拿大01|沪美专线|NF
-      - 荷兰双线
-      - 荷兰02|新徽专线|NF
-      - 荷兰01|新徽专线|NF
-      - 韩国首尔05|天津专线|NF
-      - 韩国首尔04|天津专线|NF
-      - 韩国首尔03|天津专线|NF
-      - 韩国春川02|天津专线|NF
-      - 韩国春川01|天津专线|NF
-      - 哈萨克斯坦02|天津专线|NF
-      - 哈萨克斯坦01|日沪专线|NF
-      - 法国双线
-      - 法国02|新杭专线|NF
-      - 法国01|新杭专线|NF
-      - 法国01 |新广专线|NF
-      - 俄罗斯 01|广港专线|NF
-      - 迪拜01|新徽专线|NF
-      - 德国02津德专线|NF
+      - 美国03|沪美专线|NF
+      - 美国04|沪美专线|NF
+      - 美国07|沪美专线|NF
+      - 美国08|沪美专线|NF
       - 德国01|津德专线|NF
-      - 朝鲜2|沪美专线|稀有节点
-      - 波兰双线
-      - 冰岛|广港专线|NF|稀有节点
-      - 巴西03|日苏专线|NF
-      - 巴西03 |新广专线|NF
-      - 巴西02|日苏专线|NF
-      - 巴西|日沪专线|NF
-      - 巴巴多斯|稀有节点|NF
-      - 澳门|广新专线|NF
-      - 澳大利亚04|新广专线|NF
-      - 澳大利亚03|新广专线|NF
-      - 澳大利亚02|新广专线|NF
-      - 澳大利亚|日苏专线|NF
-      - 奥地利 01|津德专线|NF
-      - 埃及|津德专线|NF
-      - 阿根廷|日沪专线|NF
+      - 德国02津德专线|NF
+      - 香港03|广港专线|NF
+      - 香港04
+      - 韩国春川01|天津专线|NF
+      - 韩国春川02|天津专线|NF
+      - 台湾03|日苏专线|NF
+      - 韩国首尔03|天津专线|NF
+      - 韩国首尔04|天津专线|NF
+      - 韩国首尔05|天津专线|NF
+      - 新加坡|新杭专线|NF
+      - 法国01|新杭专线|NF
+      - 法国02|新杭专线|NF
+      - 瑞士01|津德专线|NF
+      - 瑞士02|广港专线|NF
+      - 迪拜01|新徽专线|NF
       - 阿布扎比|新徽专线|NF
+      - 荷兰01|新徽专线|NF
+      - 荷兰02|新徽专线|NF
+      - 加拿大01|沪美专线|NF
+      - 加拿大02|沪美专线|NF
+      - 智利01|沪美专线|NF
+      - 土耳其01|新徽专线|NF
+      - 卢森堡01|广港专线|NF
+      - 泰国01|广港专线|NF
+      - 印度01|广新专线|NF
+      - 英国 01|津德专线|NF
+      - 乌克兰 01|津德专线|NF
+      - 俄罗斯 01|广港专线|NF
+      - 捷克 01|津德专线|NF
+      - 奥地利 01|津德专线|NF
+      - 印尼01|新广专线|NF
+      - 马来西亚01|新广专线|NF
+      - 哈萨克斯坦01|日沪专线|NF
+      - 哈萨克斯坦02|天津专线|NF
+      - 巴西|日沪专线|NF
+      - 阿根廷|日沪专线|NF
+      - 塞浦路斯|日沪专线|NF
+      - 澳大利亚|日苏专线|NF
+      - 埃及|津德专线|NF
+      - 澳门|广新专线|NF
+      - 巴西02|日苏专线|NF
+      - 巴西03|日苏专线|NF
+      - 香港01|广港专线|NF
+      - 英国02|津德专线|NF
+      - 英国03|津德专线|NF
+      - 英国04|新杭专线|NF
+      - 法国01 |新广专线|NF
+      - 巴西03 |新广专线|NF
+      - 美国08 |新广专线|NF
+      - 新加坡2|新杭专线|NF
+      - 澳大利亚02|新广专线|NF
+      - 澳大利亚03|新广专线|NF
+      - 澳大利亚04|新广专线|NF
+      - 巴巴多斯|稀有节点|NF
+      - 朝鲜2|沪美专线|稀有节点
+      - 冰岛|广港专线|NF|稀有节点
+      - 葡萄牙|新广专线|NF
+      - 西班牙|新广专线|NF
+      - 匈牙利|新广专线|NF
+      - 伊朗|广港专线|稀有节点
+      - 新加坡4|新广专线|NF
+      - 台湾05广港专线|NF
+      - 法国双线
+      - 荷兰双线
+      - 波兰双线
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Vmess
-      - vmess+ws
-      - trojan
       - HYJ-SS
-      - P01
-      - repl-SS
-      - repl-Trojan
-      - repl-vmess
-      - 智利01|沪美专线|NF
-      - 英国04|新杭专线|NF
-      - 英国03|津德专线|NF
-      - 英国02|津德专线|NF
-      - 英国 01|津德专线|NF
-      - 印尼01|新广专线|NF
-      - 印度01|广新专线|NF
-      - 伊朗|广港专线|稀有节点
-      - 匈牙利|新广专线|NF
-      - 新加坡4|新广专线|NF
-      - 新加坡2|新杭专线|NF
-      - 新加坡|新杭专线|NF
-      - 香港04
-      - 香港03|广港专线|NF
-      - 香港01|广港专线|NF
-      - 西班牙|新广专线|NF
-      - 乌克兰 01|津德专线|NF
-      - 土耳其01|新徽专线|NF
-      - 泰国01|广港专线|NF
-      - 台湾05广港专线|NF
-      - 台湾03|日苏专线|NF
-      - 塞浦路斯|日沪专线|NF
-      - 瑞士02|广港专线|NF
-      - 瑞士01|津德专线|NF
-      - 日本08|日沪专线|NF
-      - 日本07|日沪专线|NF
-      - 日本06|日沪专线|NF
-      - 日本05|日沪专线|NF
-      - 日本04|日沪专线|NF
-      - 日本03|日沪专线|NF
-      - 日本02|日沪专线|NF
+      - HYJ-vmess+ws
+      - HYJ-Vmess
       - 日本01|日沪专线|NF
-      - 葡萄牙|新广专线|NF
-      - 美国08|沪美专线|NF
-      - 美国08 |新广专线|NF
-      - 美国07|沪美专线|NF
-      - 美国04|沪美专线|NF
-      - 美国03|沪美专线|NF
+      - 日本02|日沪专线|NF
+      - 日本03|日沪专线|NF
+      - 日本04|日沪专线|NF
+      - 日本05|日沪专线|NF
+      - 日本06|日沪专线|NF
+      - 日本07|日沪专线|NF
+      - 日本08|日沪专线|NF
       - 美国02|日沪专线|NF
-      - 马来西亚01|新广专线|NF
-      - 卢森堡01|广港专线|NF
-      - 捷克 01|津德专线|NF
-      - 加拿大02|沪美专线|NF
-      - 加拿大01|沪美专线|NF
-      - 荷兰双线
-      - 荷兰02|新徽专线|NF
-      - 荷兰01|新徽专线|NF
-      - 韩国首尔05|天津专线|NF
-      - 韩国首尔04|天津专线|NF
-      - 韩国首尔03|天津专线|NF
-      - 韩国春川02|天津专线|NF
-      - 韩国春川01|天津专线|NF
-      - 哈萨克斯坦02|天津专线|NF
-      - 哈萨克斯坦01|日沪专线|NF
-      - 法国双线
-      - 法国02|新杭专线|NF
-      - 法国01|新杭专线|NF
-      - 法国01 |新广专线|NF
-      - 俄罗斯 01|广港专线|NF
-      - 迪拜01|新徽专线|NF
-      - 德国02津德专线|NF
+      - 美国03|沪美专线|NF
+      - 美国04|沪美专线|NF
+      - 美国07|沪美专线|NF
+      - 美国08|沪美专线|NF
       - 德国01|津德专线|NF
-      - 朝鲜2|沪美专线|稀有节点
-      - 波兰双线
-      - 冰岛|广港专线|NF|稀有节点
-      - 巴西03|日苏专线|NF
-      - 巴西03 |新广专线|NF
-      - 巴西02|日苏专线|NF
-      - 巴西|日沪专线|NF
-      - 巴巴多斯|稀有节点|NF
-      - 澳门|广新专线|NF
-      - 澳大利亚04|新广专线|NF
-      - 澳大利亚03|新广专线|NF
-      - 澳大利亚02|新广专线|NF
-      - 澳大利亚|日苏专线|NF
-      - 奥地利 01|津德专线|NF
-      - 埃及|津德专线|NF
-      - 阿根廷|日沪专线|NF
+      - 德国02津德专线|NF
+      - 香港03|广港专线|NF
+      - 香港04
+      - 韩国春川01|天津专线|NF
+      - 韩国春川02|天津专线|NF
+      - 台湾03|日苏专线|NF
+      - 韩国首尔03|天津专线|NF
+      - 韩国首尔04|天津专线|NF
+      - 韩国首尔05|天津专线|NF
+      - 新加坡|新杭专线|NF
+      - 法国01|新杭专线|NF
+      - 法国02|新杭专线|NF
+      - 瑞士01|津德专线|NF
+      - 瑞士02|广港专线|NF
+      - 迪拜01|新徽专线|NF
       - 阿布扎比|新徽专线|NF
+      - 荷兰01|新徽专线|NF
+      - 荷兰02|新徽专线|NF
+      - 加拿大01|沪美专线|NF
+      - 加拿大02|沪美专线|NF
+      - 智利01|沪美专线|NF
+      - 土耳其01|新徽专线|NF
+      - 卢森堡01|广港专线|NF
+      - 泰国01|广港专线|NF
+      - 印度01|广新专线|NF
+      - 英国 01|津德专线|NF
+      - 乌克兰 01|津德专线|NF
+      - 俄罗斯 01|广港专线|NF
+      - 捷克 01|津德专线|NF
+      - 奥地利 01|津德专线|NF
+      - 印尼01|新广专线|NF
+      - 马来西亚01|新广专线|NF
+      - 哈萨克斯坦01|日沪专线|NF
+      - 哈萨克斯坦02|天津专线|NF
+      - 巴西|日沪专线|NF
+      - 阿根廷|日沪专线|NF
+      - 塞浦路斯|日沪专线|NF
+      - 澳大利亚|日苏专线|NF
+      - 埃及|津德专线|NF
+      - 澳门|广新专线|NF
+      - 巴西02|日苏专线|NF
+      - 巴西03|日苏专线|NF
+      - 香港01|广港专线|NF
+      - 英国02|津德专线|NF
+      - 英国03|津德专线|NF
+      - 英国04|新杭专线|NF
+      - 法国01 |新广专线|NF
+      - 巴西03 |新广专线|NF
+      - 美国08 |新广专线|NF
+      - 新加坡2|新杭专线|NF
+      - 澳大利亚02|新广专线|NF
+      - 澳大利亚03|新广专线|NF
+      - 澳大利亚04|新广专线|NF
+      - 巴巴多斯|稀有节点|NF
+      - 朝鲜2|沪美专线|稀有节点
+      - 冰岛|广港专线|NF|稀有节点
+      - 葡萄牙|新广专线|NF
+      - 西班牙|新广专线|NF
+      - 匈牙利|新广专线|NF
+      - 伊朗|广港专线|稀有节点
+      - 新加坡4|新广专线|NF
+      - 台湾05广港专线|NF
+      - 法国双线
+      - 荷兰双线
+      - 波兰双线
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -749,93 +714,88 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Vmess
-      - vmess+ws
-      - trojan
       - HYJ-SS
-      - P01
-      - repl-SS
-      - repl-Trojan
-      - repl-vmess
-      - 智利01|沪美专线|NF
-      - 英国04|新杭专线|NF
-      - 英国03|津德专线|NF
-      - 英国02|津德专线|NF
-      - 英国 01|津德专线|NF
-      - 印尼01|新广专线|NF
-      - 印度01|广新专线|NF
-      - 伊朗|广港专线|稀有节点
-      - 匈牙利|新广专线|NF
-      - 新加坡4|新广专线|NF
-      - 新加坡2|新杭专线|NF
-      - 新加坡|新杭专线|NF
-      - 香港04
-      - 香港03|广港专线|NF
-      - 香港01|广港专线|NF
-      - 西班牙|新广专线|NF
-      - 乌克兰 01|津德专线|NF
-      - 土耳其01|新徽专线|NF
-      - 泰国01|广港专线|NF
-      - 台湾05广港专线|NF
-      - 台湾03|日苏专线|NF
-      - 塞浦路斯|日沪专线|NF
-      - 瑞士02|广港专线|NF
-      - 瑞士01|津德专线|NF
-      - 日本08|日沪专线|NF
-      - 日本07|日沪专线|NF
-      - 日本06|日沪专线|NF
-      - 日本05|日沪专线|NF
-      - 日本04|日沪专线|NF
-      - 日本03|日沪专线|NF
-      - 日本02|日沪专线|NF
+      - HYJ-vmess+ws
+      - HYJ-Vmess
       - 日本01|日沪专线|NF
-      - 葡萄牙|新广专线|NF
-      - 美国08|沪美专线|NF
-      - 美国08 |新广专线|NF
-      - 美国07|沪美专线|NF
-      - 美国04|沪美专线|NF
-      - 美国03|沪美专线|NF
+      - 日本02|日沪专线|NF
+      - 日本03|日沪专线|NF
+      - 日本04|日沪专线|NF
+      - 日本05|日沪专线|NF
+      - 日本06|日沪专线|NF
+      - 日本07|日沪专线|NF
+      - 日本08|日沪专线|NF
       - 美国02|日沪专线|NF
-      - 马来西亚01|新广专线|NF
-      - 卢森堡01|广港专线|NF
-      - 捷克 01|津德专线|NF
-      - 加拿大02|沪美专线|NF
-      - 加拿大01|沪美专线|NF
-      - 荷兰双线
-      - 荷兰02|新徽专线|NF
-      - 荷兰01|新徽专线|NF
-      - 韩国首尔05|天津专线|NF
-      - 韩国首尔04|天津专线|NF
-      - 韩国首尔03|天津专线|NF
-      - 韩国春川02|天津专线|NF
-      - 韩国春川01|天津专线|NF
-      - 哈萨克斯坦02|天津专线|NF
-      - 哈萨克斯坦01|日沪专线|NF
-      - 法国双线
-      - 法国02|新杭专线|NF
-      - 法国01|新杭专线|NF
-      - 法国01 |新广专线|NF
-      - 俄罗斯 01|广港专线|NF
-      - 迪拜01|新徽专线|NF
-      - 德国02津德专线|NF
+      - 美国03|沪美专线|NF
+      - 美国04|沪美专线|NF
+      - 美国07|沪美专线|NF
+      - 美国08|沪美专线|NF
       - 德国01|津德专线|NF
-      - 朝鲜2|沪美专线|稀有节点
-      - 波兰双线
-      - 冰岛|广港专线|NF|稀有节点
-      - 巴西03|日苏专线|NF
-      - 巴西03 |新广专线|NF
-      - 巴西02|日苏专线|NF
-      - 巴西|日沪专线|NF
-      - 巴巴多斯|稀有节点|NF
-      - 澳门|广新专线|NF
-      - 澳大利亚04|新广专线|NF
-      - 澳大利亚03|新广专线|NF
-      - 澳大利亚02|新广专线|NF
-      - 澳大利亚|日苏专线|NF
-      - 奥地利 01|津德专线|NF
-      - 埃及|津德专线|NF
-      - 阿根廷|日沪专线|NF
+      - 德国02津德专线|NF
+      - 香港03|广港专线|NF
+      - 香港04
+      - 韩国春川01|天津专线|NF
+      - 韩国春川02|天津专线|NF
+      - 台湾03|日苏专线|NF
+      - 韩国首尔03|天津专线|NF
+      - 韩国首尔04|天津专线|NF
+      - 韩国首尔05|天津专线|NF
+      - 新加坡|新杭专线|NF
+      - 法国01|新杭专线|NF
+      - 法国02|新杭专线|NF
+      - 瑞士01|津德专线|NF
+      - 瑞士02|广港专线|NF
+      - 迪拜01|新徽专线|NF
       - 阿布扎比|新徽专线|NF
+      - 荷兰01|新徽专线|NF
+      - 荷兰02|新徽专线|NF
+      - 加拿大01|沪美专线|NF
+      - 加拿大02|沪美专线|NF
+      - 智利01|沪美专线|NF
+      - 土耳其01|新徽专线|NF
+      - 卢森堡01|广港专线|NF
+      - 泰国01|广港专线|NF
+      - 印度01|广新专线|NF
+      - 英国 01|津德专线|NF
+      - 乌克兰 01|津德专线|NF
+      - 俄罗斯 01|广港专线|NF
+      - 捷克 01|津德专线|NF
+      - 奥地利 01|津德专线|NF
+      - 印尼01|新广专线|NF
+      - 马来西亚01|新广专线|NF
+      - 哈萨克斯坦01|日沪专线|NF
+      - 哈萨克斯坦02|天津专线|NF
+      - 巴西|日沪专线|NF
+      - 阿根廷|日沪专线|NF
+      - 塞浦路斯|日沪专线|NF
+      - 澳大利亚|日苏专线|NF
+      - 埃及|津德专线|NF
+      - 澳门|广新专线|NF
+      - 巴西02|日苏专线|NF
+      - 巴西03|日苏专线|NF
+      - 香港01|广港专线|NF
+      - 英国02|津德专线|NF
+      - 英国03|津德专线|NF
+      - 英国04|新杭专线|NF
+      - 法国01 |新广专线|NF
+      - 巴西03 |新广专线|NF
+      - 美国08 |新广专线|NF
+      - 新加坡2|新杭专线|NF
+      - 澳大利亚02|新广专线|NF
+      - 澳大利亚03|新广专线|NF
+      - 澳大利亚04|新广专线|NF
+      - 巴巴多斯|稀有节点|NF
+      - 朝鲜2|沪美专线|稀有节点
+      - 冰岛|广港专线|NF|稀有节点
+      - 葡萄牙|新广专线|NF
+      - 西班牙|新广专线|NF
+      - 匈牙利|新广专线|NF
+      - 伊朗|广港专线|稀有节点
+      - 新加坡4|新广专线|NF
+      - 台湾05广港专线|NF
+      - 法国双线
+      - 荷兰双线
+      - 波兰双线
 
 rules:
 # 本地/局域网地址
