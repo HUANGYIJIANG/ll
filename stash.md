@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2023-12-14 09:50:54
+# 创建时间：2023-12-14 10:11:41
 # 使用模版：V2RaySE 默认模版
 # 节点数量：241
 ####################################
@@ -180,7 +180,6 @@ proxies:
   - {"name":"Alien_16","type":"vmess","server":"jp.981545.xyz","port":2052,"cipher":"auto","uuid":"a73f7c42-6f4b-4637-94a5-0f572a012f82","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"Alien_17","type":"vmess","server":"jp.981545.xyz","port":2052,"cipher":"auto","uuid":"a73f7c42-6f4b-4637-94a5-0f572a012f82","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"Alien_18","type":"vmess","server":"jp.981545.xyz","port":2052,"cipher":"auto","uuid":"a73f7c42-6f4b-4637-94a5-0f572a012f82","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"%F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AFHy2%E8%B6%85%E4%BD%8E%E5%BB%B6%E6%97%B6","type":"hysteria2","server":"hkt.aiopen.sbs","port":443,"password":"142d0406-dfa8-4b73-a518-c5eae9f42019","skip-cert-verify":true}
   - {"name":"Alien_19","type":"vmess","server":"23.227.38.33","port":80,"cipher":"auto","uuid":"35f67a9e-b853-42c6-9025-2cb4e7465153","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"Alien_20","type":"vmess","server":"162.159.200.1","port":80,"cipher":"auto","uuid":"35f67a9e-b853-42c6-9025-2cb4e7465153","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"Alien_21","type":"vmess","server":"162.159.142.202","port":80,"cipher":"auto","uuid":"35f67a9e-b853-42c6-9025-2cb4e7465153","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
@@ -427,7 +426,6 @@ proxy-groups:
       - Alien_16
       - Alien_17
       - Alien_18
-      -   %F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AFHy2%E8%B6%85%E4%BD%8E%E5%BB%B6%E6%97%B6
       - Alien_19
       - Alien_20
       - Alien_21
@@ -674,7 +672,6 @@ proxy-groups:
       - Alien_16
       - Alien_17
       - Alien_18
-      -   %F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AFHy2%E8%B6%85%E4%BD%8E%E5%BB%B6%E6%97%B6
       - Alien_19
       - Alien_20
       - Alien_21
@@ -921,7 +918,6 @@ proxy-groups:
       - Alien_16
       - Alien_17
       - Alien_18
-      -   %F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AFHy2%E8%B6%85%E4%BD%8E%E5%BB%B6%E6%97%B6
       - Alien_19
       - Alien_20
       - Alien_21
@@ -1167,7 +1163,6 @@ proxy-groups:
       - Alien_16
       - Alien_17
       - Alien_18
-      -   %F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AFHy2%E8%B6%85%E4%BD%8E%E5%BB%B6%E6%97%B6
       - Alien_19
       - Alien_20
       - Alien_21
@@ -1413,7 +1408,6 @@ proxy-groups:
       - Alien_16
       - Alien_17
       - Alien_18
-      -   %F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AFHy2%E8%B6%85%E4%BD%8E%E5%BB%B6%E6%97%B6
       - Alien_19
       - Alien_20
       - Alien_21
@@ -1659,7 +1653,6 @@ proxy-groups:
       - Alien_16
       - Alien_17
       - Alien_18
-      -   %F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AFHy2%E8%B6%85%E4%BD%8E%E5%BB%B6%E6%97%B6
       - Alien_19
       - Alien_20
       - Alien_21
@@ -1922,7 +1915,6 @@ proxy-groups:
       - Alien_16
       - Alien_17
       - Alien_18
-      -   %F0%9F%87%AD%F0%9F%87%B0%E9%A6%99%E6%B8%AFHy2%E8%B6%85%E4%BD%8E%E5%BB%B6%E6%97%B6
       - Alien_19
       - Alien_20
       - Alien_21
