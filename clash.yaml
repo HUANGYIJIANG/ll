@@ -1,0 +1,44 @@
+proxies:
+  - {name: 🇨🇳 中国联通节点1-1A, server: 115.231.220.33, port: 5443, type: trojan, password: 6f4ad6df-9797-4a7a-ae3e-9e89c9ca0fa0, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HONG KONG 01-1D, server: 72.244.91.170, port: 20001, type: ss, cipher: aes-128-gcm, password: 348c98df-00f9-45ff-b930-92bd61809a59, udp: true}
+  - {name: 🇭🇰 HONG KONG 01-1F, server: 72.244.91.170, port: 20001, type: ss, cipher: aes-128-gcm, password: 25902d90-4306-4bd7-af04-671124379cab, udp: true}
+  - {name: 🇺🇸 美国IEPL, server: 110.242.74.102, port: 10005, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
+  - {name: 🇯🇵 日本IEPL, server: 110.242.74.102, port: 10003, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
+  - {name: 🇹🇼 台湾高速节点-1A, server: 103.137.63.77, port: 443, type: trojan, password: 6f4ad6df-9797-4a7a-ae3e-9e89c9ca0fa0, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: MK-FOM, server: empty.node, port: 443, type: trojan, password: a480a70b-725a-4c89-ada9-bd371ba3091e, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾高速节点-1B, server: 103.137.63.77, port: 443, type: trojan, password: 29cfcf18-8c4f-49b0-8725-d3a486fdd8cc, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡IEPL, server: 110.242.74.102, port: 10004, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
+  - {name: 🇺🇸 美国高速节点1-1A, server: 144.34.178.66, port: 1443, type: trojan, password: 6f4ad6df-9797-4a7a-ae3e-9e89c9ca0fa0, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HONG KONG 01-1E, server: 72.244.91.170, port: 20001, type: ss, cipher: aes-128-gcm, password: 586873d1-f3f9-4aaf-b65b-22b089639431, udp: true}
+  - {name: 🇹🇼 台湾高速节点2-1A, server: 118.232.199.29, port: 443, type: trojan, password: 6f4ad6df-9797-4a7a-ae3e-9e89c9ca0fa0, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾高速节点3-1B, server: 118.232.199.14, port: 443, type: trojan, password: 29cfcf18-8c4f-49b0-8725-d3a486fdd8cc, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 8443-1A, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 33131101-1531-47ed-b699-d3a61e849620, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 8443-1G, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: fcd7f225-c34c-455b-b996-ba0e4d61c0a3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 8443-1M, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 1c6c68e9-f4f0-4615-b5b4-0beb8face9a7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: PQ-APO, server: empty.node, port: 443, type: trojan, password: ebb1125e-eca7-4cfa-9bfd-48571ea1b37e, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IEPL, server: 110.242.74.102, port: 10001, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
+  - {name: 8443-1C, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 550493fa-dba4-4939-b125-7e934d03b974, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇹🇼 台湾高速节点3-1A, server: 118.232.199.14, port: 443, type: trojan, password: 6f4ad6df-9797-4a7a-ae3e-9e89c9ca0fa0, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 8443-1E, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 954c66b4-8fa2-43d7-af2a-3bc18162dc7c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇭🇰 HONG KONG 01-1B, server: 72.244.91.170, port: 20001, type: ss, cipher: aes-128-gcm, password: d81e5312-8919-430f-87ee-da2040078b91, udp: true}
+  - {name: 8443-1F, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 42350f90-36e1-44e5-88b1-18dd3e8138eb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 8443-1D, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: b36262c0-1503-4ed5-be05-518cbf6ccaef, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 8443-1H, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 1a4b61f5-c19d-4b7e-b862-5b99e2218fd8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 8443-1I, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 69a3d7b0-d921-4aed-b759-b103881b08e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇨🇳 中国联通节点1-1B, server: 115.231.220.33, port: 5443, type: trojan, password: 29cfcf18-8c4f-49b0-8725-d3a486fdd8cc, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾高速节点2-1B, server: 118.232.199.29, port: 443, type: trojan, password: 29cfcf18-8c4f-49b0-8725-d3a486fdd8cc, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾IEPL, server: 110.242.74.102, port: 10002, type: ss, cipher: aes-256-gcm, password: 909ca374-501a-4a34-8c1e-a5be3cadbeb2, udp: true}
+  - {name: 🇸🇬 SG-02-1A, server: 188.253.125.109, port: 2083, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MTQ3Y2FlZDZkZTMwODgyMQ==:YzkyNDljM2QtYTYwNC00Yg==, udp: true}
+  - {name: 🇸🇬 SG-02-1C, server: 188.253.125.109, port: 2083, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MTQ3Y2FlZDZkZTMwODgyMQ==:OTk4YTZiNmUtMDVkZS00OA==, udp: true}
+  - {name: 8443-1O, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 1910eb62-3e6f-4133-b7cf-3f719f5fcbf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 8443-1N, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 43605ea0-67d9-4184-a305-fac627bbc5eb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 8443-1J, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 3139f8fc-0e20-4e06-bd61-ae95c93d2bd5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇸🇬 SG-02-1D, server: 188.253.125.109, port: 2083, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MTQ3Y2FlZDZkZTMwODgyMQ==:YWUyZjRkOWYtNWQ2ZS00OA==, udp: true}
+  - {name: 🇭🇰 HONG KONG 01-1C, server: 72.244.91.170, port: 20001, type: ss, cipher: aes-128-gcm, password: 34a8333c-e16a-4288-95a1-2e9be9bc513d, udp: true}
+  - {name: 8443-1P, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 74a3f116-160f-46b5-b5ad-8277c70913a2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇸🇬 SG-02-1B, server: 188.253.125.109, port: 2083, type: ss, cipher: 2022-blake3-aes-128-gcm, password: MTQ3Y2FlZDZkZTMwODgyMQ==:ODY5N2I4ZjUtYTViMy00OQ==, udp: true}
+  - {name: 8443-1K, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 200fbd81-0a77-4743-9f79-4087a97beb36, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 8443-1L, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 8d610d98-8ff9-44ea-bab9-92ffb2ab2552, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 8443-1B, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 9ea84553-0842-4214-9f01-6350952bbd3a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇺🇸 美国高速节点1-1B, server: 144.34.178.66, port: 1443, type: trojan, password: 29cfcf18-8c4f-49b0-8725-d3a486fdd8cc, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HONG KONG 01-1A, server: 72.244.91.170, port: 20001, type: ss, cipher: aes-128-gcm, password: a6cd20b9-028b-4a14-816f-e8c8ce86de95, udp: true}
